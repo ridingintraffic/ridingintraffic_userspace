@@ -1,3 +1,6 @@
+#include QMK_KEYBOARD_H
+#include <stdio.h>
+
 #include "ridingintraffic.h"
 
 #define KC_CPYP LGUI(LSFT(LCTL(KC_4)))  // Copy portion of screen  to clipboard
