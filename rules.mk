@@ -11,7 +11,7 @@ SRC += ridingintraffic.c
 ifeq ($(strip $(KEYBOARD)), keyboards/lily58/)
 	RGBLIGHT_ENABLE = no
 	MOUSEKEY_ENABLE = no
-	USE_SECRETS = yes
+	USE_SECRETS = no
 endif
 
 
