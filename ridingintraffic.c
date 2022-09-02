@@ -1,3 +1,7 @@
+#include "ridingintraffic.h"
+
+userspace_config_t userspace_config;
+
 #define KC_CPYP LGUI(LSFT(LCTL(KC_4)))  // Copy portion of screen  to clipboard
 #define KC_CPYF LGUI(LSFT(LCTL(KC_3)))  // Copy full screen to clipboard
 #define KC_CPYPSS LGUI(LSFT(KC_4))  // Copy portion of screen  to desktop
@@ -32,11 +36,6 @@ enum {
   TD_OTHER,
   TD_RESETRBRC,
   TD_RESETLBRC
-};
-
-void tap(uint16_t keycode){
-    register_code(keycode);
-    unregister_code(keycode);
 };
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
