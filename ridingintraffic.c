@@ -14,7 +14,7 @@
 #define KC_ZOOMVIDEO LGUI(LSFT(KC_V))  // zoom start stop video
 
 enum custom_keycodes {
-    SHRUG,
+    SHRUG = SAFE_RANGE,
     FU,
     HAPPYFACE,
     HEART,
