@@ -10,7 +10,7 @@ jobs:
       matrix:
 # List of keymap json files to build
         file:
-        - keymaps/lily58.json
+        - lily58.json
 # End of json file list
 
     steps:
