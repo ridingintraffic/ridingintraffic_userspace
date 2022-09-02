@@ -23,4 +23,3 @@ else
 endif
 
 
-SRC += newbie.c
