@@ -7,7 +7,7 @@
       [ "LILY_BASE" ]
 
   ],
-  "layout": "LAYOUT_LILY",
+  "layout": "LAYOUT_lily",
   "notes": "",
   "version": 1
 }
