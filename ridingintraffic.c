@@ -2,6 +2,7 @@
 #include <stdio.h>
 
 #include "ridingintraffic.h"
+#include "wrappers.h"
 
 #define KC_CPYP LGUI(LSFT(LCTL(KC_4)))  // Copy portion of screen  to clipboard
 #define KC_CPYF LGUI(LSFT(LCTL(KC_3)))  // Copy full screen to clipboard
@@ -50,7 +51,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
             case DISFACE:       // ಠ_ಠ
               if(record->event.pressed){
                   send_unicode_string("ಠ_ಠ");
-              }  
+              }
               return false;
               break;
             case FU:       // t(-_-t)
@@ -58,19 +59,19 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
                     send_unicode_string("t(-_-t)");
                 }
                 return false;
-                break; 
-            case HAPPYFACE:       // ʘ‿ʘ 
+                break;
+            case HAPPYFACE:       // ʘ‿ʘ
                 if(record->event.pressed){
                     send_unicode_string("ʘ‿ʘ");
                 }
                 return false;
-                break; 
+                break;
             case HEART:       // ♥‿♥
                 if(record->event.pressed){
                     send_unicode_string("♥‿♥");
                 }
                 return false;
-                break; 
+                break;
             case SHRUG:         // ¯\_(ツ)_/¯
               if(record->event.pressed){
                 send_unicode_string("¯\\_(ツ)_/¯");
