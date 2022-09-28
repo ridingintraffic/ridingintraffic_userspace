@@ -4,7 +4,7 @@
   "keyboard": "lily58/rev1",
   "keymap": "ridingintraffic",
   "layers": [
-      [ "lily_base" ]
+      [ "LILY_BASE" ]
 
   ],
   "layout": "LAYOUT_wrapper",

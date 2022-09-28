@@ -27,9 +27,9 @@
       KC_LSFT, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, \
                                           KC_LGUI, _______,  KC_SPC,     KC_ENT,   MO(3), KC_RALT
 
-#define LAYOUT_lily58_wrapper(...)  LAYOUT(__VA_ARGS__)
+#define LAYOUT_wrapper(...) LAYOUT(__VA_ARGS__)
 
-#define lily_base \
+#define LILY_BASE \
  // ,-----------------------------------------------------.                    ,------------------------------------------------------.
       KC_GESC,   KC_1,   KC_2,    KC_3,    KC_4,    KC_5,                        KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_MINS, \
 //  |--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
