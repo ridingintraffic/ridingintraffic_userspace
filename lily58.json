@@ -7,7 +7,7 @@
       [ "lily_base" ]
 
   ],
-  "layout": "LAYOUT",
+  "layout": "LAYOUT_wrapper",
   "notes": "",
   "version": 1
 }
