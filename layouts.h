@@ -1,7 +1,7 @@
 #pragma once
 
 
-#define LAYOUT_lily(...) LAYOUT(__VA_ARGS__)
+#define LAYOUT(...) LAYOUT(__VA_ARGS__)
 
 
 #define LILY_BASE \
