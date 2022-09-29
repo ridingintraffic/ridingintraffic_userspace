@@ -3,8 +3,38 @@
 #define LAYOUT_wrapper(...) LAYOUT(__VA_ARGS__)
 
 #define LILY_BASE \
-KC_ESC,   KC_1,   KC_2,    KC_3,    KC_4,    KC_5,                     KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_GRV, \
-KC_TAB,   KC_Q,   KC_W,    KC_E,    KC_R,    KC_T,                     KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_MINS, \
-KC_LCTRL, KC_A,   KC_S,    KC_D,    KC_F,    KC_G,                     KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT, \
-KC_LSFT,  KC_Z,   KC_X,    KC_C,    KC_V,    KC_B, KC_LBRC,  KC_RBRC,  KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH,  KC_RSFT, \
-                  KC_LALT, KC_LGUI, KC_LALT, KC_SPC, KC_ENT, KC_LALT, KC_BSPC, KC_RGUI 
+KC_GESC,   ________________NUMBER_LEFT________________,                  ________________NUMBER_RIGHT_______________,    KC_GRV, \
+KC_TAB,   _________________QWERTY_L1_________________,                  _________________QWERTY_R1_________________,    KC_MINS, \
+KC_LCTRL, _________________QWERTY_L2_________________,                  _________________QWERTY_R2_________________, KC_QUOT, \
+KC_LSFT,  _________________QWERTY_L3_________________, KC_LBRC,  KC_RBRC,  _________________QWERTY_R3_________________,  KC_RSFT, \
+      KC_LALT, KC_LGUI, KC_LALT, KC_SPC, KC_ENT, KC_LALT, KC_BSPC, KC_RGUI 
+
+#define ___________________BLANK___________________       _______, _______, _______, _______, _______
+
+#define _________________QWERTY_L1_________________       KC_Q,    KC_W,    KC_E,    KC_R,    KC_T
+#define _________________QWERTY_L2_________________       KC_A,    KC_S,    KC_D,    KC_F,    KC_G
+#define _________________QWERTY_L3_________________       KC_Z,    KC_X,    KC_C,    KC_V,    KC_B
+
+#define _________________QWERTY_R1_________________       KC_Y,    KC_U,    KC_I,    KC_O,    KC_P
+#define _________________QWERTY_R2_________________       KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT
+#define _________________QWERTY_R3_________________       KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH
+
+#define _________________LOWER_L1__________________       KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC
+#define _________________LOWER_L2__________________       ___________________BLANK___________________
+#define _________________LOWER_L3__________________       ___________________BLANK___________________
+
+#define _________________LOWER_R1__________________       KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN
+#define _________________LOWER_R2__________________       _______, KC_UNDS, KC_PLUS, KC_LCBR, KC_RCBR
+#define _________________LOWER_R3__________________       _______, KC_HOME, KC_PGDN, KC_PGUP, KC_END
+
+#define ________________NUMBER_LEFT________________       KC_1,    KC_2,    KC_3,    KC_4,    KC_5
+#define ________________NUMBER_RIGHT_______________       KC_6,    KC_7,    KC_8,    KC_9,    KC_0
+
+
+#define _________________RAISE_L1__________________       ________________NUMBER_LEFT________________
+#define _________________RAISE_L2__________________       ___________________BLANK___________________
+#define _________________RAISE_L3__________________       ___________________BLANK___________________
+
+#define _________________RAISE_R1__________________       ________________NUMBER_RIGHT_______________
+#define _________________RAISE_R2__________________       _______, KC_MINS, KC_EQL,  KC_LBRC, KC_RBRC
+#define _________________RAISE_R3__________________       _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
