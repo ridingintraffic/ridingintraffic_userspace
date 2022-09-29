@@ -14,4 +14,18 @@
     #include "keymaps/crkbd.h"
 #endif // KEYBOARD_crkbd_rev1
 
+#ifdef KEYBOARD_ergodox_ez_shine
+    #include "keymaps/ergodox.h"
+#endif // KEYBOARD_ergodox_ez_shine
+
+#ifdef KEYBOARD_ergodox_ez
+    #include "keymaps/ergodox.h"
+#endif // KEYBOARD_ergodox_ez
+
+#ifdef KEYBOARD_keebio_iris_rev4
+    #include "keymaps/iris.h"
+#endif //KEYBOARD_keebio_iris_rev4
+
+
+
 #include "wrappers.h"
