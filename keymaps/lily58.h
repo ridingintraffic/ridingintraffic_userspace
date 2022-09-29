@@ -1,3 +1,5 @@
+#define LAYOUT_wrapper(...) LAYOUT(__VA_ARGS__)
+
 #define LILY_BASE \
 KC_GESC,   ________________NUMBER_LEFT________________,                  ________________NUMBER_RIGHT_______________,    KC_GRV, \
 KC_GESC,   _________________QWERTY_L1_________________,                  _________________QWERTY_R1_________________,    KC_MINS, \

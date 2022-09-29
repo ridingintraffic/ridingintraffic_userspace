@@ -1,7 +1,5 @@
 #pragma once
 
-#define LAYOUT_wrapper(...) LAYOUT(__VA_ARGS__)
-
 #define ___________________BLANK___________________       _______, _______, _______, _______, _______
 
 #define _________________QWERTY_L1_________________       KC_Q,    KC_W,    KC_E,    KC_R,    KC_T

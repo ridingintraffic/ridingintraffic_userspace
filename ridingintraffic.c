@@ -1,4 +1,3 @@
-#include "quantum.h"
 #include <stdio.h>
 
 #define KC_CPYP LGUI(LSFT(LCTL(KC_4)))  // Copy portion of screen  to clipboard
