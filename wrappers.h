@@ -32,12 +32,12 @@
 #define _________________RAISE_R2__________________       _______, KC_MINS, KC_EQL,  KC_LBRC, KC_RBRC
 #define _________________RAISE_R3__________________       _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
 
-#define __THUMBS_3L__       LT(1, KC_LCTL), KC_LGUI, KC_BSPC
-#define __THUMBS_3R__      KC_SPC,    KC_ENT,    LT(2, KC_LALT)
+#define __THUMBS_3L__            LT(1, KC_LCTL), KC_LGUI, KC_BSPC
+#define __THUMBS_3R__            KC_SPC, KC_ENT, LT(2, KC_LALT)
 
 #define __THUMBS_3L_LOWER__       LT(1, KC_LCTL), KC_LGUI, KC_BSPC
-#define __THUMBS_3R_LOWER__      KC_SPC,    KC_ENT,    LT(2, KC_LALT)
+#define __THUMBS_3R_LOWER__      KC_SPC, KC_ENT, LT(2, KC_LALT)
 
-#define __THUMBS_3L_RAISE__       LT(1, KC_LCTL), KC_LGUI, KC_BSPC
-#define __THUMBS_3R_RAISE__      KC_SPC,    KC_ENT,    LT(2, KC_LALT)
+#define __THUMBS_3L_RAISE__      LT(1, KC_LCTL), KC_LGUI, KC_BSPC
+#define __THUMBS_3R_RAISE__      KC_SPC, KC_ENT, LT(2, KC_LALT)
 
