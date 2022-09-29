@@ -1,13 +1,9 @@
 #include "quantum.h"
 #include <stdio.h>
+#include "ridingintraffic.h"
 
 #include "wrappers.h"
 #include "keymaps/lily58.h"
-
-#ifdef KEYBOARD_lily58
-    #include "keymaps/lily58.h"
-#endif
-#include "ridingintraffic.h"
 
 #define KC_CPYP LGUI(LSFT(LCTL(KC_4)))  // Copy portion of screen  to clipboard
 #define KC_CPYF LGUI(LSFT(LCTL(KC_3)))  // Copy full screen to clipboard
