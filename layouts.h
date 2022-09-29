@@ -2,13 +2,6 @@
 
 #define LAYOUT_wrapper(...) LAYOUT(__VA_ARGS__)
 
-#define LILY_BASE \
-KC_GESC,   ________________NUMBER_LEFT________________,                  ________________NUMBER_RIGHT_______________,    KC_GRV, \
-KC_TAB,   _________________QWERTY_L1_________________,                  _________________QWERTY_R1_________________,    KC_MINS, \
-KC_LCTRL, _________________QWERTY_L2_________________,                  _________________QWERTY_R2_________________, KC_QUOT, \
-KC_LSFT,  _________________QWERTY_L3_________________, KC_LBRC,  KC_RBRC,  _________________QWERTY_R3_________________,  KC_RSFT, \
-      KC_LALT, KC_LGUI, KC_LALT, KC_SPC, KC_ENT, KC_LALT, KC_BSPC, KC_RGUI 
-
 #define ___________________BLANK___________________       _______, _______, _______, _______, _______
 
 #define _________________QWERTY_L1_________________       KC_Q,    KC_W,    KC_E,    KC_R,    KC_T
@@ -38,3 +31,13 @@ KC_LSFT,  _________________QWERTY_L3_________________, KC_LBRC,  KC_RBRC,  _____
 #define _________________RAISE_R1__________________       ________________NUMBER_RIGHT_______________
 #define _________________RAISE_R2__________________       _______, KC_MINS, KC_EQL,  KC_LBRC, KC_RBRC
 #define _________________RAISE_R3__________________       _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
+
+
+
+#define LILY_BASE \
+KC_GESC,   ________________NUMBER_LEFT________________,                  ________________NUMBER_RIGHT_______________,    KC_GRV, \
+KC_TAB,   _________________QWERTY_L1_________________,                  _________________QWERTY_R1_________________,    KC_MINS, \
+KC_LCTRL, _________________QWERTY_L2_________________,                  _________________QWERTY_R2_________________, KC_QUOT, \
+KC_LSFT,  _________________QWERTY_L3_________________, KC_LBRC,  KC_RBRC,  _________________QWERTY_R3_________________,  KC_RSFT, \
+      KC_LALT, KC_LGUI, KC_LALT, KC_SPC, KC_ENT, KC_LALT, KC_BSPC, KC_RGUI 
+
