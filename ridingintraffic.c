@@ -1,9 +1,16 @@
 #include "quantum.h"
 #include <stdio.h>
-#include "ridingintraffic.h"
 
 #include "wrappers.h"
 #include "keymaps/lily58.h"
+
+#pragma once
+
+// Common QMK variables
+#define TAPPING_TERM 200
+#define PERMISSIVE_HOLD
+#define IGNORE_MOD_TAP_INTERRUPT
+#define TAP_CODE_DELAY 10
 
 #define KC_CPYP LGUI(LSFT(LCTL(KC_4)))  // Copy portion of screen  to clipboard
 #define KC_CPYF LGUI(LSFT(LCTL(KC_3)))  // Copy full screen to clipboard
