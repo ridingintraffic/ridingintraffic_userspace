@@ -1,4 +1,4 @@
-#include QMK_KEYBOARD_H
+#include "quantum.h"
 #include <stdio.h>
 
 #include "ridingintraffic.h"
