@@ -1,7 +1,5 @@
 #pragma once
 
-#define LAYOUT_wrapper(...) LAYOUT(__VA_ARGS__)
-
 #define ___________________BLANK___________________       _______, _______, _______, _______, _______
 
 #define _________________QWERTY_L1_________________       KC_Q,    KC_W,    KC_E,    KC_R,    KC_T
@@ -32,12 +30,12 @@
 #define _________________RAISE_R2__________________       _______, KC_MINS, KC_EQL,  KC_LBRC, KC_RBRC
 #define _________________RAISE_R3__________________       _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
 
+#define __THUMBS_3L__            LT(1, KC_LCTL), KC_LGUI, KC_BSPC
+#define __THUMBS_3R__            KC_SPC, KC_ENT, LT(2, KC_LALT)
 
+#define __THUMBS_3L_LOWER__       LT(1, KC_LCTL), KC_LGUI, KC_BSPC
+#define __THUMBS_3R_LOWER__      KC_SPC, KC_ENT, LT(2, KC_LALT)
 
-#define LILY_BASE \
-KC_GESC,   ________________NUMBER_LEFT________________,                  ________________NUMBER_RIGHT_______________,    KC_GRV, \
-KC_TAB,   _________________QWERTY_L1_________________,                  _________________QWERTY_R1_________________,    KC_MINS, \
-KC_LCTRL, _________________QWERTY_L2_________________,                  _________________QWERTY_R2_________________, KC_QUOT, \
-KC_LSFT,  _________________QWERTY_L3_________________, KC_LBRC,  KC_RBRC,  _________________QWERTY_R3_________________,  KC_RSFT, \
-      KC_LALT, KC_LGUI, KC_LALT, KC_SPC, KC_ENT, KC_LALT, KC_BSPC, KC_RGUI 
+#define __THUMBS_3L_RAISE__      LT(1, KC_LCTL), KC_LGUI, KC_BSPC
+#define __THUMBS_3R_RAISE__      KC_SPC, KC_ENT, LT(2, KC_LALT)
 
