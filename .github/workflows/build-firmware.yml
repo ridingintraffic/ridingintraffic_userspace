@@ -10,8 +10,8 @@ jobs:
       matrix:
 # List of keymap json files to build
         file:
-        - keymaps/lily58.json
-        - keymaps/crkb.json
+        - lily58.json
+        - crkb.json
 # End of json file list
 
     steps:
