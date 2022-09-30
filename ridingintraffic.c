@@ -1,5 +1,4 @@
 #include "quantum.h"
-#include <stdio.h>
 
 #define KC_CPYP LGUI(LSFT(LCTL(KC_4)))  // Copy portion of screen  to clipboard
 #define KC_CPYF LGUI(LSFT(LCTL(KC_3)))  // Copy full screen to clipboard
@@ -11,3 +10,7 @@
 #define KC_ZOOMSCREENSHAREPAUSE LGUI(LSFT(KC_T))  // zoom screenshare pause resume
 #define KC_ZOOMVIDEO LGUI(LSFT(KC_V))  // zoom start stop video
 
+// Runs just one time when the keyboard initializes.
+void matrix_init_user(void) {
+ set_unicode_input_mode(UC_OSX);
+};
