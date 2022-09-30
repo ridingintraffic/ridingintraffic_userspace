@@ -16,10 +16,16 @@
 
 #ifdef KEYBOARD_ergodox_ez_shine
     #include "keymaps/ergodox.h"
+    #include "stddef.h"
+    #include "action_layer.h"
+    #include "config_common.h"
 #endif // KEYBOARD_ergodox_ez_shine
 
 #ifdef KEYBOARD_ergodox_ez
     #include "keymaps/ergodox.h"
+    #include "stddef.h"
+    #include "action_layer.h"
+    #include "config_common.h"
 #endif // KEYBOARD_ergodox_ez
 
 #ifdef KEYBOARD_keebio_iris_rev4
