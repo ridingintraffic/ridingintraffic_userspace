@@ -1,10 +1,12 @@
 {
     "author": "",
     "documentation": "Wrapper based keymap",
-    "keyboard": "fingerpunch/ffkb_byomcu",
+    "keyboard": "fingerpunch/ffkb_byomcu/v2",
     "keymap": "ridingintraffic",
     "layers": [
-        [ "BASE" ]
+        [ "BASE" ],
+        [ "RAISE" ],
+        [ "LOWER" ]
     ],
     "layout": "LAYOUT_wrapper_ffkb",
     "notes": "",

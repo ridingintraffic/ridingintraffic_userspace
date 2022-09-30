@@ -27,7 +27,7 @@
 #define _________________RAISE_L3__________________       ___________________BLANK___________________
 
 #define _________________RAISE_R1__________________       ________________NUMBER_RIGHT_______________
-#define _________________RAISE_R2__________________       _______, KC_MINS, KC_EQL,  KC_LBRC, KC_RBRC
+#define _________________RAISE_R2__________________       KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______
 #define _________________RAISE_R3__________________       _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
 
 #define __THUMBS_3L__            LT(1, KC_LCTL), KC_LGUI, KC_BSPC
