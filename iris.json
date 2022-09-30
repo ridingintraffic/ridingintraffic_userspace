@@ -1,0 +1,12 @@
+{
+    "author": "",
+    "documentation": "Wrapper based keymap",
+    "keyboard": "keebio/iris/rev4",
+    "keymap": "ridingintraffic",
+    "layers": [
+        [ "BASE" ]
+    ],
+    "layout": "LAYOUT_wrapper",
+    "notes": "",
+    "version": 1
+  }

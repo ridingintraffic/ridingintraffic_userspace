@@ -14,4 +14,23 @@
     #include "keymaps/crkbd.h"
 #endif // KEYBOARD_crkbd_rev1
 
+
+#ifdef KEYBOARD_ergodox_ez
+    #include "keymaps/ergodox.h"
+    #include "version.h"
+#endif // KEYBOARD_ergodox_ez
+
+#ifdef KEYBOARD_keebio_iris_rev4
+    #include "keymaps/iris.h"
+#endif //KEYBOARD_keebio_iris_rev4
+
+#ifdef KEYBOARD_preonic_rev3
+    #include "keymaps/preonic.h"
+#endif //KEYBOARD_preonic_rev3
+
+#ifdef KEYBOARD_planck_rev6
+    #include "keymaps/planck.h"
+#endif //KEYBOARD_planck_rev6
+
+
 #include "wrappers.h"
