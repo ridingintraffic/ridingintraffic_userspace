@@ -124,3 +124,45 @@ jobs:
           *.bin
           *.uf2
       continue-on-error: true
+
+  build-fingerpunch-stemcell:
+    runs-on: ubuntu-latest
+    container: qmkfm/qmk_cli
+    strategy:
+      fail-fast: false
+      matrix:
+# List of keymap json files to build
+        file:
+        - ffkb.json
+
+# End of json file list
+
+    steps:
+
+    - name: Checkout QMK
+      uses: actions/checkout@v3
+      with:
+        repository: sadekbaroudi/qmk_firmware
+# Uncomment the following for develop branch
+#        ref: develop
+        submodules: true
+
+    - name: Checkout userspace
+      uses: actions/checkout@v2
+      with:
+        path: users/${{ github.actor }}
+
+    - name: Build firmware
+      run: qmk compile -j 16 "users/${{ github.actor }}/${{ matrix.file }}" -e CONVERT_TO=stemcell
+
+    - name: Archive firmware
+      uses: actions/upload-artifact@v2
+      with:
+        name: ${{ matrix.file }}_${{ github.actor }}
+        retention-days: 5
+        path: |
+          *.hex
+          *.bin
+          *.uf2
+      continue-on-error: true
+

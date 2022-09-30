@@ -9,12 +9,15 @@ EXTRAKEY_ENABLE = yes
 SRC += ridingintraffic.c
 
 
+ifeq ($(strip $(KEYBOARD)), fingerpunch/ffkb_byomcu)
+	CONVERT_TO=stemcell
+endif
+
 ifeq ($(strip $(KEYBOARD)), keyboards/lily58/)
 	RGBLIGHT_ENABLE = no
 	MOUSEKEY_ENABLE = no
 	USE_SECRETS = no
 endif
-
 
 ifeq ($(strip $(USE_SECRETS)), yes)
 	ifneq ("$(wildcard $(USER_PATH)/secrets.c)", "")
@@ -27,3 +30,7 @@ else
 endif
 
 
+# Corne CRKBD
+ifeq ($(strip $(KEYBOARD)), crkbd/rev1)
+
+endif
