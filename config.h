@@ -24,6 +24,13 @@
     #include "keymaps/iris.h"
 #endif //KEYBOARD_keebio_iris_rev4
 
+#ifdef KEYBOARD_preonic_rev3
+    #include "keymaps/preonic.h"
+#endif //KEYBOARD_preonic_rev3
+
+#ifdef KEYBOARD_planck_rev6
+    #include "keymaps/planck.h"
+#endif //KEYBOARD_planck_rev6
 
 
 #include "wrappers.h"

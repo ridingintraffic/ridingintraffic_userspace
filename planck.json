@@ -1,0 +1,15 @@
+{
+  "author": "",
+  "documentation": "Wrapper based keymap",
+  "keyboard": "planck/rev6",
+  "keymap": "ridingintraffic",
+  "layers": [
+      [ "BASE" ],
+      [ "BASE" ],
+      [ "BASE" ]
+
+  ],
+  "layout": "LAYOUT_wrapper_ortho_4x12",
+  "notes": "",
+  "version": 1
+}
