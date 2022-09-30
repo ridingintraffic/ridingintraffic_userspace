@@ -32,5 +32,9 @@
     #include "keymaps/planck.h"
 #endif //KEYBOARD_planck_rev6
 
+#ifdef KEYBOARD_fingerpunch_ffkb_byomcu
+    #include "keymaps/ffkb.h"
+#endif //KEYBOARD_fingerpunch_ffkb_byomcu
+
 
 #include "wrappers.h"
