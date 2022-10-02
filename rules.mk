@@ -34,3 +34,10 @@ endif
 ifeq ($(strip $(KEYBOARD)), crkbd/rev1)
 
 endif
+
+# planck
+ifeq ($(strip $(KEYBOARD)), planck/rev6)
+    STENO_ENABLE = yes
+	STENO_PROTOCOL = txbolt
+endif
+
