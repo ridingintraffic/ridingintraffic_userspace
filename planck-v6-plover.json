@@ -1,15 +1,15 @@
 {
   "author": "",
   "documentation": "Wrapper based keymap",
-  "keyboard": "lily58/rev1",
+  "keyboard": "planck/rev6",
   "keymap": "ridingintraffic",
   "layers": [
+      [ "PLOVER" ],
       [ "BASE" ],
-      [ "RAISE" ],
-      [ "LOWER" ]
+      [ "BASE" ]
 
   ],
-  "layout": "LAYOUT_wrapper",
+  "layout": "LAYOUT_wrapper_ortho_4x12",
   "notes": "",
   "version": 1
 }
