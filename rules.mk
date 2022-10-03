@@ -38,6 +38,6 @@ endif
 # planck
 ifeq ($(strip $(KEYBOARD)), planck/rev6)
         STENO_ENABLE = yes
-	STENO_PROTOCOL = GeminiPR
+	STENO_PROTOCOL = geminipr
 endif
 
