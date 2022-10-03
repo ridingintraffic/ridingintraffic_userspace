@@ -37,7 +37,7 @@ endif
 
 # planck
 ifeq ($(strip $(KEYBOARD)), planck/rev6)
-    STENO_ENABLE = yes
-	STENO_PROTOCOL = txbolt
+        STENO_ENABLE = yes
+	STENO_PROTOCOL = GeminiPR
 endif
 
