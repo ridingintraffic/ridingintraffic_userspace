@@ -30,7 +30,7 @@
 
 #ifdef KEYBOARD_planck_rev6
     #include "keymaps/planck.h"
-    #incldue "keymap_steno.h"
+    #include "keymap_steno.h"
 #endif //KEYBOARD_planck_rev6
 
 #ifdef KEYBOARD_fingerpunch_ffkb_byomcu
