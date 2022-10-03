@@ -5,8 +5,8 @@
   "keymap": "ridingintraffic",
   "layers": [
       [ "PLOVER" ],
-      [ "BASE" ],
-      [ "BASE" ]
+      [ "PLOVER" ],
+      [ "PLOVER" ]
 
   ],
   "layout": "LAYOUT_wrapper_ortho_4x12",
