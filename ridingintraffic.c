@@ -1,29 +1,4 @@
-#include "quantum.h"
-#include QMK_KEYBOARD_H
-#define KC_ZOOMMUTE LGUI(LSFT(KC_A))  // zoom mute / unmute
-#define KC_ZOOMSCREENSHARE LGUI(LSFT(KC_S))  // zoom screenshare start stop
-#define KC_ZOOMSCREENSHAREPAUSE LGUI(LSFT(KC_T))  // zoom screenshare pause resume
-#define KC_ZOOMVIDEO LGUI(LSFT(KC_V))  // zoom start stop video
-
-// Runs just one time when the keyboard initializes.
-void matrix_init_user(void) {
- set_unicode_input_mode(UC_OSX);
-};
-
-void keyboard_post_init_user(void) {
-  // Customise these values to desired behaviour
-  debug_enable=false;
-  debug_matrix=false;
-  //debug_keyboard=true;
-  //debug_mouse=true;
-}
-
-void tap(uint16_t keycode){
-    register_code(keycode);
-    unregister_code(keycode);
-};
-
-
+#include "ridingintraffic.h"
 #ifdef ENCODER_ENABLE
 _Bool encoder_update_user(uint8_t index, bool clockwise) {
     // default behavior if undefined
@@ -35,7 +10,7 @@ _Bool encoder_update_user(uint8_t index, bool clockwise) {
         #else
         if (clockwise) {
         #endif
-            tap_code(KC_VOLU);
+            tap_code(KC_VOLU);s
         } else {
             tap_code(KC_VOLD);
         }

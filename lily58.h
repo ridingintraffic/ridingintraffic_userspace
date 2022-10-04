@@ -1,11 +1,11 @@
-#define LAYOUT_wrapper(...) LAYOUT(__VA_ARGS__)
+#define LAYOUT_lily_wrapper(...) LAYOUT(__VA_ARGS__)
 
 #define BASE \
 KC_GESC,   ________________NUMBER_LEFT________________,                  ________________NUMBER_RIGHT_______________, KC_MINS, \
 KC_GESC,   _________________QWERTY_L1_________________,                  _________________QWERTY_R1_________________, KC_EQL, \
 KC_TAB,    _________________QWERTY_L2_________________,                  _________________QWERTY_R2_________________, KC_QUOT, \
 KC_LSFT,   _________________QWERTY_L3_________________, KC_LBRC,  KC_RBRC,  _________________QWERTY_R3_________________,  KC_BSLS, \
-                                 LT(2, KC_LALT), __THUMBS_3L__, __THUMBS_3R__, LT(1, KC_LCTL)
+                                 LT(LOWER, KC_LALT), __THUMBS_3L__, __THUMBS_3R__, LT(RAISE, KC_LCTL)
 
 #define RAISE \
 KC_GRV,    _________________RAISE_L1__________________,                  _________________RAISE_R1__________________, KC_MINS, \

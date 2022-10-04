@@ -1,6 +1,5 @@
 #pragma once
 
-#define MY_SAFE_RANGE 65518
 #define KC_CPYP G(S(C(KC_4)))  // Copy portion of screen  to clipboard
 #define KC_CPYF G(S(C(KC_3)))  // Copy full screen to clipboard
 #define KC_CPYPSS LGUI(LSFT(KC_4))  // Copy portion of screen  to desktop
@@ -45,3 +44,4 @@
 
 #define __THUMBS_3L_RAISE__      LT(1, KC_LCTL), KC_LGUI, KC_BSPC
 #define __THUMBS_3R_RAISE__      KC_SPC, KC_ENT, LT(2, KC_LALT)
+

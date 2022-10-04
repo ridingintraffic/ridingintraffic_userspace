@@ -4,12 +4,12 @@
   "keyboard": "lily58/rev1",
   "keymap": "ridingintraffic",
   "layers": [
-      [ "BASE" ],
+      [  "BASE" ],
       [ "RAISE" ],
       [ "LOWER" ]
 
   ],
-  "layout": "LAYOUT_wrapper",
+  "layout": "LAYOUT_lily_wrapper",
   "notes": "",
   "version": 1
 }
