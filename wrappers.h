@@ -12,7 +12,7 @@
 
 #define _________________LOWER_L1__________________       KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC
 #define _________________LOWER_L2__________________       ___________________BLANK___________________
-#define _________________LOWER_L3__________________       ___________________BLANK___________________
+#define _________________LOWER_L3__________________       KC_SPC, KC_SPC, LGUI(LSFT(LCTL(KC_3))), LGUI(LSFT(LCTL(KC_4))),   KC_SPC
 
 #define _________________LOWER_R1__________________       KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN
 #define _________________LOWER_R2__________________       _______, KC_UNDS, KC_PLUS, KC_LCBR, KC_RCBR

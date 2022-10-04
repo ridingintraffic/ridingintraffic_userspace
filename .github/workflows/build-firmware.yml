@@ -14,6 +14,10 @@ jobs:
         - crkbd.json
         - iris.json
         - ergodox.json
+        - preonic.json
+        - planck-v6.json
+        - planck-v6-plover.json
+
 # End of json file list
 
     steps:
@@ -44,7 +48,8 @@ jobs:
           *.bin
           *.uf2
       continue-on-error: true
-  build-32:
+  
+  build-kb2040:
     runs-on: ubuntu-latest
     container: qmkfm/qmk_cli
     strategy:
@@ -52,8 +57,7 @@ jobs:
       matrix:
 # List of keymap json files to build
         file:
-        - preonic.json
-        - planck.json
+        - lily58.json
 # End of json file list
 
     steps:
@@ -72,7 +76,7 @@ jobs:
         path: users/${{ github.actor }}
 
     - name: Build firmware
-      run: qmk compile -j 16 "users/${{ github.actor }}/${{ matrix.file }}"
+      run: qmk compile -j 16 "users/${{ github.actor }}/${{ matrix.file }}" -e CONVERT_TO=kb2040
 
     - name: Archive firmware
       uses: actions/upload-artifact@v2
@@ -103,7 +107,7 @@ jobs:
       with:
         repository: sadekbaroudi/qmk_firmware
 # Uncomment the following for develop branch
-#        ref: develop
+        ref: develop_fingerpunch
         submodules: true
 
     - name: Checkout userspace
