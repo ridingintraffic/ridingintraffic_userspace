@@ -15,8 +15,8 @@ KC_LSFT,   _________________RAISE_L3__________________, KC_LBRC,  KC_MPLY,  ____
                       KC_LALT,      __THUMBS_3L_RAISE__,                __THUMBS_3R_RAISE__, KC_SPC
 
 #define LOWER \
-KC_GRV,   _________________LOWER_L1__________________,                  _________________LOWER_R1__________________, KC_MINS, \
-KC_GRV,   _________________LOWER_L1__________________,                  _________________LOWER_R1__________________, KC_MINS, \
+KC_TILD,  _________________LOWER_L1__________________,                  _________________LOWER_R1__________________, KC_MINS, \
+KC_TILD,  _________________LOWER_L1__________________,                  _________________LOWER_R1__________________, KC_MINS, \
 KC_TAB,   _________________LOWER_L2__________________,                  _________________LOWER_R2__________________, KC_QUOT, \
 KC_LSFT,  _________________LOWER_L3__________________, KC_LBRC,  KC_RBRC,   _________________LOWER_R3__________________,  KC_BSLS, \
                         KC_SPC,      __THUMBS_3L_LOWER__,                __THUMBS_3R_LOWER__, KC_SPC
