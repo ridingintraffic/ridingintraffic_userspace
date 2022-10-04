@@ -16,7 +16,6 @@ jobs:
         - ergodox.json
         - preonic.json
         - planck-v6.json
-        - planck-v6-plover.json
 
 # End of json file list
 
@@ -48,7 +47,7 @@ jobs:
           *.bin
           *.uf2
       continue-on-error: true
-  
+
   build-kb2040:
     runs-on: ubuntu-latest
     container: qmkfm/qmk_cli
