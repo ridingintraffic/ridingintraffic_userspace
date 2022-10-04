@@ -6,7 +6,7 @@
 #define KC_CPYFSS LGUI(LSFT(KC_3))  // Copy full screen to desktop
 
 
-#define ___________________BLANK___________________       _______, _______, _______, _______, _______
+#define ___________________BLANK___________________       KC_NO,  KC_NO, KC_NO, KC_NO, KC_NO
 
 #define _________________QWERTY_L1_________________       KC_Q,    KC_W,    KC_E,    KC_R,    KC_T
 #define _________________QWERTY_L2_________________       KC_A,    KC_S,    KC_D,    KC_F,    KC_G
