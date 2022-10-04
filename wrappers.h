@@ -1,5 +1,11 @@
 #pragma once
 
+#define KC_CPYP LGUI(LSFT(LCTL(KC_4)))  // Copy portion of screen  to clipboard
+#define KC_CPYF LGUI(LSFT(LCTL(KC_3)))  // Copy full screen to clipboard
+#define KC_CPYPSS LGUI(LSFT(KC_4))  // Copy portion of screen  to desktop
+#define KC_CPYFSS LGUI(LSFT(KC_3))  // Copy full screen to desktop
+
+
 #define ___________________BLANK___________________       _______, _______, _______, _______, _______
 
 #define _________________QWERTY_L1_________________       KC_Q,    KC_W,    KC_E,    KC_R,    KC_T
@@ -12,7 +18,7 @@
 
 #define _________________LOWER_L1__________________       KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC
 #define _________________LOWER_L2__________________       ___________________BLANK___________________
-#define _________________LOWER_L3__________________       KC_SPC, KC_SPC, LGUI(LSFT(LCTL(KC_3))), LGUI(LSFT(LCTL(KC_4))),   KC_SPC
+#define _________________LOWER_L3__________________       KC_SPC, KC_SPC, KC_CPYF, KC_CPYP,   KC_SPC
 
 #define _________________LOWER_R1__________________       KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN
 #define _________________LOWER_R2__________________       _______, KC_UNDS, KC_PLUS, KC_LCBR, KC_RCBR
@@ -38,4 +44,3 @@
 
 #define __THUMBS_3L_RAISE__      LT(1, KC_LCTL), KC_LGUI, KC_BSPC
 #define __THUMBS_3R_RAISE__      KC_SPC, KC_ENT, LT(2, KC_LALT)
-
