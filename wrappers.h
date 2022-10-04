@@ -1,12 +1,13 @@
 #pragma once
 
-#define KC_CPYP LGUI(LSFT(LCTL(KC_4)))  // Copy portion of screen  to clipboard
-#define KC_CPYF LGUI(LSFT(LCTL(KC_3)))  // Copy full screen to clipboard
+#define MY_SAFE_RANGE 65518
+#define KC_CPYP G(S(C(KC_4)))  // Copy portion of screen  to clipboard
+#define KC_CPYF G(S(C(KC_3)))  // Copy full screen to clipboard
 #define KC_CPYPSS LGUI(LSFT(KC_4))  // Copy portion of screen  to desktop
 #define KC_CPYFSS LGUI(LSFT(KC_3))  // Copy full screen to desktop
 
 
-#define ___________________BLANK___________________       KC_NO,  KC_NO, KC_NO, KC_NO, KC_NO
+#define ___________________BLANK___________________       KC_NO,  KC_NO,    KC_NO,   KC_NO,  KC_NO
 
 #define _________________QWERTY_L1_________________       KC_Q,    KC_W,    KC_E,    KC_R,    KC_T
 #define _________________QWERTY_L2_________________       KC_A,    KC_S,    KC_D,    KC_F,    KC_G
