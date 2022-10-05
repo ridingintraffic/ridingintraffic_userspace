@@ -116,7 +116,7 @@ jobs:
         path: users/${{ github.actor }}
 
     - name: Build firmware
-      run: qmk compile -j 16 "users/${{ github.actor }}/${{ matrix.file }}" -e FP_EVQ_UNDER_PALMS=yes -e RGBLIGHT_ENABLE=yes
+      run: qmk compile -j 16 "users/${{ github.actor }}/${{ matrix.file }}" -e FP_EVQ_UNDER_PALMS=yes
 
     - name: Archive firmware
       uses: actions/upload-artifact@v2
