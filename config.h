@@ -38,5 +38,12 @@
 
 #endif //KEYBOARD_fingerpunch_ffkb_byomcu
 
+#ifdef KEYBOARD_fingerpunch_rockon_v1
+    #include "keymaps/rockon.h"
+
+#endif //KEYBOARD_fingerpunch_rockon_v1
+
+
+
 
 #include "wrappers.h"

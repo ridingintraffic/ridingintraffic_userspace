@@ -1,0 +1,14 @@
+{
+    "author": "",
+    "documentation": "Wrapper based keymap",
+    "keyboard": "fingerpunch/rockon/v1",
+    "keymap": "ridingintraffic",
+    "layers": [
+        [ "BASE" ],
+        [ "RAISE" ],
+        [ "LOWER" ]
+    ],
+    "layout": "LAYOUT_wrapper_rockon",
+    "notes": "",
+    "version": 1
+  }
