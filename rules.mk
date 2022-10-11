@@ -6,6 +6,7 @@ TAP_DANCE_ENABLE = no
 UNICODE_ENABLE = yes
 WPM_ENABLE = yes
 EXTRAKEY_ENABLE = yes
+TAPPING_TERM=100
 SRC += ridingintraffic.c
 
 
