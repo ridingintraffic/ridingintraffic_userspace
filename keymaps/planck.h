@@ -1,4 +1,4 @@
-#define LAYOUT_wrapper_planck_1x2uC(...) LAYOUT_planck_1x2uC(__VA_ARGS__)
+#define LAYOUT_wrapper_planck_2x2u(...) LAYOUT_planck_2x2u(__VA_ARGS__)
 
 #define BASE \
 KC_GESC,   _________________QWERTY_L1_________________,  _________________QWERTY_R1_________________,    KC_MINS, \
