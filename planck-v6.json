@@ -5,11 +5,11 @@
   "keymap": "ridingintraffic",
   "layers": [
       [ "BASE" ],
-      [ "BASE" ],
-      [ "BASE" ]
+      [ "RAISE" ],
+      [ "LOWER" ]
 
   ],
-  "layout": "LAYOUT_wrapper_ortho_4x12",
+  "layout": "LAYOUT_wraooer_planck_1x2uC",
   "notes": "",
   "version": 1
 }
