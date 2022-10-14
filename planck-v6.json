@@ -4,12 +4,13 @@
   "keyboard": "planck/rev6",
   "keymap": "ridingintraffic",
   "layers": [
-      [ "BASE" ],
+    [ "BASE" ],
+    [ "BASE" ],
       [ "RAISE" ],
       [ "LOWER" ]
 
   ],
-  "layout": "LAYOUT_wrapper_planck_1x2uC",
+  "layout": "LAYOUT_wrapper_planck_2x2u",
   "notes": "",
   "version": 1
 }
