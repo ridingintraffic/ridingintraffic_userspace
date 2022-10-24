@@ -13,12 +13,12 @@
 #define _________________QWERTY_R3_________________       KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH
 
 #define _________________RAISE_L1__________________       ________________NUMBER_LEFT________________
-#define _________________RAISE_L2__________________       RGB_VAI, RGB_SPI, RGB_HUI, RGB_HUD, RGB_VAI
-#define _________________RAISE_L3__________________       RGB_VAD, RGB_SPD, KC_CPYW, KC_CPYP, RGB_VAD
+#define _________________RAISE_L2__________________       KC_TAB, _______, _______, _______, _______
+#define _________________RAISE_L3__________________       _______, _______, KC_CPYW, KC_CPYP, RGB_VAD
 
 #define _________________RAISE_R1__________________       ________________NUMBER_RIGHT_______________
 #define _________________RAISE_R2__________________       KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______
-#define _________________RAISE_R3__________________       _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
+#define _________________RAISE_R3__________________       _______, KC_MINS, KC_EQL, KC_QUOT,   KC_BSLS
 
 #define _________________LOWER_L1__________________       KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC
 #define _________________LOWER_L2__________________       RGB_TOG, RGB_RMOD, RGB_MOD, KC_NO, KC_NO
@@ -27,6 +27,14 @@
 #define _________________LOWER_R1__________________       KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN
 #define _________________LOWER_R2__________________       _______, KC_UNDS, KC_PLUS, KC_LCBR, KC_RCBR
 #define _________________LOWER_R3__________________       _______, KC_HOME, KC_PGDN, KC_PGUP, KC_END
+
+#define _________________ACTION_L1_________________       RGB_TOG, RGB_RMOD, RGB_MOD, RGB_SAI, RGB_SAD
+#define _________________ACTION_L2_________________       RGB_VAI, RGB_SPI, RGB_HUI, RGB_HUD, RGB_VAI
+#define _________________ACTION_L3_________________       RGB_VAD, RGB_SPD, KC_CPYW, KC_CPYP, RGB_VAD
+
+#define _________________ACTION_R1_________________       ________________NUMBER_RIGHT_______________
+#define _________________ACTION_R2__________________       KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______
+#define _________________ACTION_R3__________________       _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
 
 #define ________________NUMBER_LEFT________________       KC_1,    KC_2,    KC_3,    KC_4,    KC_5
 #define ________________NUMBER_RIGHT_______________       KC_6,    KC_7,    KC_8,    KC_9,    KC_0
