@@ -57,6 +57,7 @@ jobs:
 # List of keymap json files to build
         file:
         - lily58.json
+        - crkbd.json
 # End of json file list
 
     steps:
