@@ -5,8 +5,8 @@
   "keymap": "ridingintraffic",
   "layers": [
       [ "BASE" ],
-      [ "BASE" ],
-      [ "BASE" ]
+      [ "RAISE" ],
+      [ "LOWER" ]
 
   ],
 "layout":"LAYOUT_wrapper_split_3x6_3",
