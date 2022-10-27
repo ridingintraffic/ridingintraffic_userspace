@@ -38,5 +38,5 @@ ifeq ($(strip $(KEYBOARD)), planck/rev6)
 endif
 # planck
 ifeq ($(strip $(KEYBOARD)), fingerpunch/sweeeeep)
-        PIN_COMPATIBLE = elite_c
+        PIN_COMPATIBLE=elite_c
 endif
