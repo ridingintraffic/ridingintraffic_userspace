@@ -41,6 +41,6 @@ ifeq ($(strip $(KEYBOARD)), planck/rev6)
 	STENO_PROTOCOL = geminipr
 endif
 # planck
-ifeq ($(strip $(KEYBOARD)), fingerpunch/sweeeeep)
-        PIN_COMPATIBLE=elite_c
-endif
+#ifeq ($(strip $(KEYBOARD)), fingerpunch/sweeeeep)
+#        PIN_COMPATIBLE=elite_c
+#endif
