@@ -157,7 +157,7 @@ jobs:
         path: users/${{ github.actor }}
 
     - name: Build firmware
-      run: qmk compile -j 16 "users/${{ github.actor }}/${{ matrix.file }}" -e CONVERT_TO=promicro_rp2040
+      run: qmk compile -j 16 "users/${{ github.actor }}/${{ matrix.file }}" -e CONVERT_TO=elite_c_to_elite_pi
 
     - name: Archive firmware
       uses: actions/upload-artifact@v2
