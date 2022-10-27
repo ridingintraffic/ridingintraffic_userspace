@@ -9,10 +9,6 @@ EXTRAKEY_ENABLE = yes
 SRC += ridingintraffic.c
 
 
-ifeq ($(strip $(KEYBOARD)), fingerpunch/ffkb_byomcu)
-	CONVERT_TO=stemcell
-endif
-
 ifeq ($(strip $(KEYBOARD)), keyboards/lily58/)
 	RGBLIGHT_ENABLE = no
 	MOUSEKEY_ENABLE = no
