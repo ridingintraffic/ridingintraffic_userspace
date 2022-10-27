@@ -1,7 +1,5 @@
 #define LAYOUT_wrapper_sweeeeep(...) LAYOUT_sweeeeep(__VA_ARGS__)
 
-  PIN_COMPATIBLE=elite_c
-
 #define BASE \
 _________________QWERTY_L1_________________,                  _________________QWERTY_R1_________________, \
 _________________QWERTY_L2_________________,                  _________________QWERTY_R2_________________, \
