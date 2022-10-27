@@ -98,6 +98,7 @@ jobs:
         file:
         - ffkb.json
         - rockon.json
+        - sweep.json
 
 # End of json file list
 
