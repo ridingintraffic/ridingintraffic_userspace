@@ -1,0 +1,14 @@
+{
+    "author": "",
+    "documentation": "Wrapper based keymap",
+    "keyboard": "fingerpunch/sweep",
+    "keymap": "ridingintraffic",
+    "layers": [
+        [ "BASE" ],
+        [ "RAISE" ],
+        [ "LOWER" ]
+    ],
+    "layout": "LAYOUT_wrapper_sweeeeep",
+    "notes": "",
+    "version": 1
+  }
