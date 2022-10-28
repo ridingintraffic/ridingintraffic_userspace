@@ -142,7 +142,6 @@ jobs:
 # End of json file list
 
     steps:
-
     - name: Checkout QMK
       uses: actions/checkout@v3
       with:
@@ -157,7 +156,7 @@ jobs:
         path: users/${{ github.actor }}
 
     - name: Build firmware
-      run: qmk compile -j 16 "users/${{ github.actor }}/${{ matrix.file }}" -e CONVERT_TO=elite_c_to_elite_pi
+      run: qmk compile -j 16 "users/${{ github.actor }}/${{ matrix.file }}" -e CONVERT_TO=elite_pi
 
     - name: Archive firmware
       uses: actions/upload-artifact@v2
