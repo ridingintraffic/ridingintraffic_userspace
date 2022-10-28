@@ -227,8 +227,8 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           discord-webhook: ${{ secrets.DISCORD_WEBHOOK }}
-          username: 'Bob'
-          avatar-url: 'https://octodex.github.com/images/Terracottocat_Single.png'
+          username: 'scruffy'
+          avatar-url: 'https://findicons.com/files/icons/1316/futurama_vol_1/128/scruffy.png'
           title: '${{ github.workflow }}: {{STATUS}}'
           description: '${{ github.event_name }} trigged this {{STATUS}}!'
           include-details: 'false'
