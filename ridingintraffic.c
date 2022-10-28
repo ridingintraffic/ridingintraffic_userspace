@@ -102,8 +102,8 @@ void tab_finished (qk_tap_dance_state_t *state, void *user_data) {
     case SINGLE_HOLD: register_ctrl_shift(); break;
     case DOUBLE_HOLD: register_alt_shift(); break; //alt shift on single hold
     case DOUBLE_TAP: register_code(KC_TAB); unregister_code(KC_TAB); register_code(KC_TAB); break; //tab tab
-    case TRIPLE_TAP: register_code(KC_LSHIFT) ;register_code(KC_ESC); break;
-    case TRIPLE_HOLD: register_code(KC_LSHIFT); register_code(KC_LGUI); break;
+    case TRIPLE_TAP: register_code(KC_LSFT) ;register_code(KC_ESC); break;
+    case TRIPLE_HOLD: register_code(KC_LSFT); register_code(KC_LGUI); break;
   }
 }
 
