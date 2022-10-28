@@ -35,7 +35,10 @@
 #ifdef KEYBOARD_fingerpunch_ffkb_byomcu
     #include "keymaps/ffkb.h"
 
-#endif //KEYBOARD_fingerpunch_ffkb_byomcu
+#endif //KEYBOARD_fingerpunch_sweeeeep
+#ifdef KEYBOARD_fingerpunch_sweeeeep
+    #include "keymaps/sweep.h"
+#endif //KEYBOARD_fingerpunch_sweeeeep
 
 #ifdef KEYBOARD_fingerpunch_rockon_v1
     #include "keymaps/rockon.h"

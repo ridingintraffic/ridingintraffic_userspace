@@ -9,10 +9,6 @@ EXTRAKEY_ENABLE = yes
 SRC += ridingintraffic.c
 
 
-ifeq ($(strip $(KEYBOARD)), fingerpunch/ffkb_byomcu)
-	CONVERT_TO=stemcell
-endif
-
 ifeq ($(strip $(KEYBOARD)), keyboards/lily58/)
 	RGBLIGHT_ENABLE = no
 	MOUSEKEY_ENABLE = no
@@ -40,4 +36,7 @@ ifeq ($(strip $(KEYBOARD)), planck/rev6)
         STENO_ENABLE = yes
 	STENO_PROTOCOL = geminipr
 endif
-
+# planck
+ifeq ($(strip $(KEYBOARD)), fingerpunch/sweeeeep)
+        PIN_COMPATIBLE=elite_c
+endif
