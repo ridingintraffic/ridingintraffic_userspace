@@ -214,7 +214,11 @@ jobs:
     runs-on: ubuntu-latest
     needs: # make sure the notification is sent AFTER the jobs you want included have completed
       - build
-      - test
+      - build-fingerpunch
+      - build-fingerpunch-stemcell
+      - build-fingerpunch-sweep
+      - build-kb2040
+
     if: ${{ failure() }} # You always want to be notified: success, failure, or cancelled
 
     steps:
