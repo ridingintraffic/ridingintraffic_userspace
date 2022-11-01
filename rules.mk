@@ -16,6 +16,7 @@ ifeq ($(strip $(KEYBOARD)), keyboards/lily58/)
 	USE_SECRETS = no
 endif
 
+
 ifeq ($(strip $(USE_SECRETS)), yes)
 	ifneq ("$(wildcard $(USER_PATH)/secrets.c)", "")
 		SRC += rotary_lock.c secrets.c
