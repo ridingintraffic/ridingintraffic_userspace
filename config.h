@@ -42,6 +42,10 @@
         #undef EE_HANDS
     #endif
     #define MASTER_LEFT
+    #ifdef FP_SUPER_TAB
+        #undef FP_SUPER_TAB
+    #endif
+
 
 #endif //KEYBOARD_fingerpunch_sweeeeep
 
