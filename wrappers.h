@@ -2,14 +2,20 @@
 #define KC_CPYP LGUI(LSFT(LCTL(KC_4)))  // Copy portion of screen
 #define KC_CPYW LGUI(LSFT(LCTL(KC_3)))  // Copy whole screen
 
+#define MY_SAFE_RANGE 0
+#define TD_Q_ESC      MY_SAFE_RANGE
+#define WIN_LT        MY_SAFE_RANGE+1
+#define INV_QM        MY_SAFE_RANGE+2
+
+
 #define ___________________BLANK___________________       _______, _______, _______, _______, _______
 
 #define _________________QWERTY_L1_________________       TD(TD_Q_ESC),   KC_W,            KC_E,    KC_R,                KC_T
-#define _________________QWERTY_L2_________________       MT(KC_LCTL,KC_A), MT(KC_LALT,KC_S), KC_D,    MT(KC_LSFT,KC_F),    KC_G
+#define _________________QWERTY_L2_________________       MT(MOD_LCTL,KC_A), MT(MOD_LALT,KC_S), KC_D,    MT(MOD_LSFT, KC_F),    KC_G
 #define _________________QWERTY_L3_________________       KC_Z,    KC_X,    KC_C,    KC_V,                KC_B
 
 #define _________________QWERTY_R1_________________       KC_Y,    KC_U,                KC_I,    KC_O,    KC_P
-#define _________________QWERTY_R2_________________       KC_H,    MT(KC_LSFT,KC_J),    KC_K,    KC_L,    KC_SCLN
+#define _________________QWERTY_R2_________________       KC_H,    MT(MOD_LSFT,KC_J),    KC_K,    KC_L,    KC_SCLN
 #define _________________QWERTY_R3_________________       KC_N,    KC_M,                KC_COMM, KC_DOT,  KC_SLSH
 
 #define _________________RAISE_L1__________________       ________________NUMBER_LEFT________________

@@ -20,11 +20,6 @@ enum {
   TRIPLE_HOLD = 7,
 };
 
-#ifdef TAP_DANCE_ENABLE
-enum {
-TD_Q_ESC = 20,
-};
-#endif
 enum
 {
   F12TAP = 0,
