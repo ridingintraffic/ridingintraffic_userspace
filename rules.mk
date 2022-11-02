@@ -8,13 +8,7 @@ UNICODE_ENABLE = yes
 WPM_ENABLE = yes
 EXTRAKEY_ENABLE = yes
 SRC += ridingintraffic.c
-
-
-ifeq ($(strip $(KEYBOARD)), keyboards/lily58/)
-	RGBLIGHT_ENABLE = no
-	MOUSEKEY_ENABLE = no
-	USE_SECRETS = no
-endif
+CAPS_WORD_ENABLE = yes
 
 
 ifeq ($(strip $(USE_SECRETS)), yes)

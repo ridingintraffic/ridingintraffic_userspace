@@ -23,10 +23,8 @@ enum {
 enum
 {
   F12TAP = 0,
-  TABCOMBO,
-  ENTERSHIFT,
-  L2COMBO,
-  L3COMBO
+  TABCOMBO
+
 };
 
 // Declare your tapdance functions:
