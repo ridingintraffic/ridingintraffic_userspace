@@ -4,7 +4,6 @@
 #define TAPPING_TERM 275
 #define PERMISSIVE_HOLD
 #define IGNORE_MOD_TAP_INTERRUPT
-#define TAP_CODE_DELAY 5
 
 #ifdef KEYBOARD_lily58
     #include "keymaps/lily58.h"
