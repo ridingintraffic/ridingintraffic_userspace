@@ -94,7 +94,21 @@ static xtap tab_state = {
   .is_press_action = true,
   .state = 0
 };
+void esc_finished (qk_tap_dance_state_t *state, void *user_data) {
+  tab_state.state = cur_dance(state);
+  switch (tab_state.state) {
+    case SINGLE_TAP: register_code(KC_Q); break;  //send tab on single press
+    case DOUBLE_TAP: register_code(KC_ESC); unregister_code(KC_TAB); register_code(KC_TAB); break; //tab tab
+  }
+}
 
+void esc_reset (qk_tap_dance_state_t *state, void *user_data) {
+  switch (tab_state.state) {
+    case SINGLE_TAP: unregister_code(KC_Q); break; //unregister tab
+    case DOUBLE_TAP: unregister_code(KC_ESC); break;
+  }
+  tab_state.state = 0;
+}
 void tab_finished (qk_tap_dance_state_t *state, void *user_data) {
   tab_state.state = cur_dance(state);
   switch (tab_state.state) {
@@ -191,20 +205,48 @@ void l2_reset (qk_tap_dance_state_t *state, void *user_data) {
   tab_state.state = 0;
 }
 /**************** QUAD FUNCTION FOR TAB ****************/
+void f_shift_finished (qk_tap_dance_state_t *state, void *user_data) {
+  tab_state.state = cur_dance(state);
+  switch (tab_state.state) {
+    case SINGLE_TAP: register_code(KC_F); break;  //send tab on single press
+    case SINGLE_HOLD: register_code(KC_LSFT); break;
+  }
+}
+
+void f_shift_reset (qk_tap_dance_state_t *state, void *user_data) {
+  switch (tab_state.state) {
+    case SINGLE_TAP: unregister_code(KC_F); break; //unregister tab
+    case SINGLE_HOLD: unregister_code(KC_LSFT); break;
+  }
+  tab_state.state = 0;
+}
+void j_shift_finished (qk_tap_dance_state_t *state, void *user_data) {
+  tab_state.state = cur_dance(state);
+  switch (tab_state.state) {
+    case SINGLE_TAP: register_code(KC_J); break;  //send tab on single press
+    case SINGLE_HOLD: register_code(KC_LSFT); break;
+  }
+}
+
+void j_shift_reset (qk_tap_dance_state_t *state, void *user_data) {
+  switch (tab_state.state) {
+    case SINGLE_TAP: unregister_code(KC_J); break; //unregister tab
+    case SINGLE_HOLD: unregister_code(KC_LSFT); break;
+  }
+  tab_state.state = 0;
+}
 // Tap Dance Definitions
 qk_tap_dance_action_t tap_dance_actions[] = {
   // simple tap dance
   [TABCOMBO] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, tab_finished, tab_reset),
+  [Q_ESC] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, esc_finished, esc_reset),
+  [F_SHIFT] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, f_shift_finished, f_shift_reset),
+  [J_SHIFT] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, j_shift_finished, j_shift_reset),
 
 };
 
 // endTapDance
 //
-
-// Runs just one time when the keyboard initializes.
-void matrix_init_user(void) {
- set_unicode_input_mode(UC_BSD);
-};
 
 void keyboard_post_init_user(void) {
   // Customise these values to desired behaviour
@@ -265,3 +307,5 @@ _Bool encoder_update_user(uint8_t index, bool clockwise) {
     return true;
 }
 #endif
+
+

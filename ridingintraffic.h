@@ -17,17 +17,14 @@ enum {
   DOUBLE_HOLD = 4,
   DOUBLE_SINGLE_TAP = 5, //send two single taps
   TRIPLE_TAP = 6,
-  TRIPLE_HOLD = 7
+  TRIPLE_HOLD = 7,
 };
-
 
 enum
 {
   F12TAP = 0,
-  TABCOMBO,
-  ENTERSHIFT,
-  L2COMBO,
-  L3COMBO
+  TABCOMBO
+
 };
 
 // Declare your tapdance functions:
@@ -38,6 +35,9 @@ int hold_cur_dance (qk_tap_dance_state_t *state);
 
 void tab_finished (qk_tap_dance_state_t *state, void *user_data);
 void tab_reset (qk_tap_dance_state_t *state, void *user_data);
+
+void esc_finished (qk_tap_dance_state_t *state, void *user_data);
+void esc_reset (qk_tap_dance_state_t *state, void *user_data);
 
 void enter_finished (qk_tap_dance_state_t *state, void *user_data);
 void enter_reset (qk_tap_dance_state_t *state, void *user_data);

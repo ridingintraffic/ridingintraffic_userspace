@@ -1,10 +1,9 @@
 #pragma once
 
 // Common QMK variables
-#define TAPPING_TERM 250
+#define TAPPING_TERM 275
 #define PERMISSIVE_HOLD
 #define IGNORE_MOD_TAP_INTERRUPT
-#define TAP_CODE_DELAY 10
 
 #ifdef KEYBOARD_lily58
     #include "keymaps/lily58.h"
@@ -38,14 +37,20 @@
 #endif //KEYBOARD_fingerpunch_sweeeeep
 #ifdef KEYBOARD_fingerpunch_sweeeeep
     #include "keymaps/sweep.h"
+    #ifdef EE_HANDS
+        #undef EE_HANDS
+    #endif
+    #define MASTER_LEFT
+    #ifdef FP_SUPER_TAB
+        #undef FP_SUPER_TAB
+    #endif
+
+
 #endif //KEYBOARD_fingerpunch_sweeeeep
 
 #ifdef KEYBOARD_fingerpunch_rockon_v1
     #include "keymaps/rockon.h"
 
 #endif //KEYBOARD_fingerpunch_rockon_v1
-
-
-
 
 #include "wrappers.h"

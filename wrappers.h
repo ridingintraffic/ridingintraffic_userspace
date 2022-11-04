@@ -2,19 +2,28 @@
 #define KC_CPYP LGUI(LSFT(LCTL(KC_4)))  // Copy portion of screen
 #define KC_CPYW LGUI(LSFT(LCTL(KC_3)))  // Copy whole screen
 
+#define MY_SAFE_RANGE 0
+#define Q_ESC      MY_SAFE_RANGE
+#define ENTERSHIFT        MY_SAFE_RANGE+1
+#define L2COMBO        MY_SAFE_RANGE+2
+#define L3COMBO        MY_SAFE_RANGE+3
+#define F_SHIFT        MY_SAFE_RANGE+4
+#define J_SHIFT        MY_SAFE_RANGE+5
+
+
 #define ___________________BLANK___________________       _______, _______, _______, _______, _______
 
-#define _________________QWERTY_L1_________________       KC_Q,    KC_W,    KC_E,    KC_R,    KC_T
-#define _________________QWERTY_L2_________________       KC_A,    KC_S,    KC_D,    KC_F,    KC_G
-#define _________________QWERTY_L3_________________       KC_Z,    KC_X,    KC_C,    KC_V,    KC_B
+#define _________________QWERTY_L1_________________       TD(Q_ESC),   KC_W,            KC_E,    KC_R,                KC_T
+#define _________________QWERTY_L2_________________       MT(MOD_LCTL,KC_A), MT(MOD_LALT,KC_S), KC_D,    MT(MOD_LSFT, KC_F),    KC_G
+#define _________________QWERTY_L3_________________       KC_Z,    KC_X,    KC_C,    KC_V,                KC_B
 
-#define _________________QWERTY_R1_________________       KC_Y,    KC_U,    KC_I,    KC_O,    KC_P
-#define _________________QWERTY_R2_________________       KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN
-#define _________________QWERTY_R3_________________       KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH
+#define _________________QWERTY_R1_________________       KC_Y,    KC_U,                KC_I,    KC_O,    KC_P
+#define _________________QWERTY_R2_________________       KC_H,    MT(MOD_LSFT, KC_J),    KC_K,    KC_L,    KC_SCLN
+#define _________________QWERTY_R3_________________       KC_N,    KC_M,                KC_COMM, KC_DOT,  KC_SLSH
 
 #define _________________RAISE_L1__________________       ________________NUMBER_LEFT________________
-#define _________________RAISE_L2__________________       KC_TAB, _______, _______, _______, _______
-#define _________________RAISE_L3__________________       KC_LBRC, _______, KC_CPYW, KC_CPYP, RGB_VAD
+#define _________________RAISE_L2__________________       KC_TAB, _______, KC_MS_BTN1, KC_MS_BTN2, _______
+#define _________________RAISE_L3__________________       KC_LBRC, _______, KC_CPYW, KC_CPYP, KC_LBRC
 
 #define _________________RAISE_R1__________________       ________________NUMBER_RIGHT_______________
 #define _________________RAISE_R2__________________       KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______
@@ -36,7 +45,7 @@
 #define _________________ACTION_R2__________________       KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______
 #define _________________ACTION_R3__________________       _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
 
-#define ________________NUMBER_LEFT________________       KC_1,    KC_2,    KC_3,    KC_4,    KC_5
+#define ________________NUMBER_LEFT________________       MT(KC_ESC, KC_1),    KC_2,    KC_3,    KC_4,    KC_5
 #define ________________NUMBER_RIGHT_______________       KC_6,    KC_7,    KC_8,    KC_9,    KC_0
 
 #define __THUMBS_3L__            LT(1, KC_LCTL), KC_LGUI, KC_BSPC

@@ -1,20 +1,13 @@
 BOOTMAGIC_ENABLE = yes
 SPACE_CADET_ENABLE = no
 GRAVE_ESC_ENABLE   = yes
-MAGIC_ENABLE       = no
 COMMAND_ENABLE     = no
 TAP_DANCE_ENABLE = yes
 UNICODE_ENABLE = yes
 WPM_ENABLE = yes
 EXTRAKEY_ENABLE = yes
 SRC += ridingintraffic.c
-
-
-ifeq ($(strip $(KEYBOARD)), keyboards/lily58/)
-	RGBLIGHT_ENABLE = no
-	MOUSEKEY_ENABLE = no
-	USE_SECRETS = no
-endif
+CAPS_WORD_ENABLE = yes
 
 
 ifeq ($(strip $(USE_SECRETS)), yes)

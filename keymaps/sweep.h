@@ -21,3 +21,4 @@ _________________LOWER_L3__________________,                  _________________L
  __THUMBS_3L_LOWER__,                __THUMBS_3R_LOWER__
 
 
+#define MASTER_LEFT
