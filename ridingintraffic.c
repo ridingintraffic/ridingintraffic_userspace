@@ -210,14 +210,12 @@ void f_shift_finished (qk_tap_dance_state_t *state, void *user_data) {
   switch (tab_state.state) {
     case SINGLE_TAP: register_code(KC_F); break;  //send tab on single press
     case SINGLE_HOLD: register_code(KC_LSFT); break;
-    case DOUBLE_TAP: caps_word_on(); break; //tab tab
   }
 }
 
 void f_shift_reset (qk_tap_dance_state_t *state, void *user_data) {
   switch (tab_state.state) {
     case SINGLE_TAP: unregister_code(KC_F); break; //unregister tab
-    case DOUBLE_TAP:  break;
     case SINGLE_HOLD: unregister_code(KC_LSFT); break;
   }
   tab_state.state = 0;
@@ -227,14 +225,12 @@ void j_shift_finished (qk_tap_dance_state_t *state, void *user_data) {
   switch (tab_state.state) {
     case SINGLE_TAP: register_code(KC_J); break;  //send tab on single press
     case SINGLE_HOLD: register_code(KC_LSFT); break;
-    case DOUBLE_TAP: caps_word_on(); break; //tab tab
   }
 }
 
 void j_shift_reset (qk_tap_dance_state_t *state, void *user_data) {
   switch (tab_state.state) {
     case SINGLE_TAP: unregister_code(KC_J); break; //unregister tab
-    case DOUBLE_TAP:  break;
     case SINGLE_HOLD: unregister_code(KC_LSFT); break;
   }
   tab_state.state = 0;
