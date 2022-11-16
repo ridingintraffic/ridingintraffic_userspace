@@ -41,15 +41,15 @@
 #define _________________ACTION_L2_________________       RGB_VAI, RGB_SPI, RGB_HUI, RGB_HUD, RGB_VAI
 #define _________________ACTION_L3_________________       RGB_VAD, RGB_SPD, KC_CPYW, KC_CPYP, RGB_VAD
 
-#define _________________ACTION_R1_________________       ________________NUMBER_RIGHT_______________
-#define _________________ACTION_R2__________________       KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______
-#define _________________ACTION_R3__________________       _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
+#define _________________ACTION_R1_________________        _______, _______, _______, _______, KC_MINS
+#define _________________ACTION_R2__________________       KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_EQL
+#define _________________ACTION_R3__________________       _______, KC_LEFT, KC_DOWN, KC_UP,   KC_QUOT
 
 #define ________________NUMBER_LEFT________________       MT(KC_ESC, KC_1),    KC_2,    KC_3,    KC_4,    KC_5
 #define ________________NUMBER_RIGHT_______________       KC_6,    KC_7,    KC_8,    KC_9,    KC_0
 
 #define __THUMBS_3L__            LT(1, KC_LCTL), KC_LGUI, KC_BSPC
-#define __THUMBS_3R__            MT(MOD_MEH, KC_SPC), KC_ENT, LT(2, KC_LALT)
+#define __THUMBS_3R__            MT(MOD_MEH, KC_SPC), LT(3, KC_ENT), LT(2, KC_LALT)
 
 #define __THUMBS_3L_RAISE__      LT(1, KC_LCTL), KC_LALT, KC_BSPC
 #define __THUMBS_3R_RAISE__      MT(MOD_MEH, KC_SPC), LCTL(KC_LEFT), LCTL(KC_RIGHT)
