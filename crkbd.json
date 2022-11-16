@@ -6,7 +6,8 @@
   "layers": [
       [ "BASE" ],
       [ "RAISE" ],
-      [ "LOWER" ]
+      [ "LOWER" ],
+      [ "ACTION" ]
 
   ],
 "layout":"LAYOUT_wrapper_split_3x6_3",
