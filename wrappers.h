@@ -13,7 +13,7 @@
 
 #define ___________________BLANK___________________       _______, _______, _______, _______, _______
 
-#define _________________QWERTY_L1_________________       TD(Q_ESC),   KC_W,            KC_E,    KC_R,                KC_T
+#define _________________QWERTY_L1_________________       TD(Q_ESC),         KC_W,  KC_E,    KC_R,                KC_T
 #define _________________QWERTY_L2_________________       MT(MOD_LCTL,KC_A), MT(MOD_LALT,KC_S), KC_D,    MT(MOD_LSFT, KC_F),    KC_G
 #define _________________QWERTY_L3_________________       KC_Z,    KC_X,    KC_C,    KC_V,                KC_B
 
