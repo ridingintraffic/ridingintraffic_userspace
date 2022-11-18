@@ -20,5 +20,10 @@ KC_TAB,    _________________LOWER_L2__________________,                  _______
 KC_LSFT,   _________________LOWER_L3__________________,                  _________________LOWER_R3__________________,  KC_BSLS, \
                         KC_SPC,      __THUMBS_3L_LOWER__,                __THUMBS_3R_LOWER__, KC_SPC, \
                                                              KC_SPC
+#define ACTION\
+KC_TILD,   _________________ACTION_L1_________________,              _________________ACTION_R1_________________,    KC_MINS, \
+KC_TAB,    _________________ACTION_L2_________________,              _________________ACTION_R2_________________, KC_QUOT, \
+KC_LSFT,   _________________ACTION_L3_________________,              _________________ACTION_R3_________________,  KC_BSLS, \
+                              KC_SPC,  __THUMBS_3L_LOWER__, __THUMBS_3R_LOWER__, KC_SPC,KC_SPC
 
 
