@@ -7,7 +7,7 @@
         [ "BASE" ],
         [ "RAISE" ],
         [ "LOWER" ],
-        [ "ACTION" ]
+        [ "NOT_ACTION" ]
     ],
     "layout": "LAYOUT_wrapper_ffkb",
     "notes": "",
