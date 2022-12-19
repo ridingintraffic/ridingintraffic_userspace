@@ -27,7 +27,7 @@
 
 #define _________________RAISE_R1__________________       ________________NUMBER_RIGHT_______________
 #define _________________RAISE_R2__________________       KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______
-#define _________________RAISE_R3__________________       KC_RBRC, KC_MINS, KC_EQL, KC_QUOT,   KC_BSLS
+#define _________________RAISE_R3__________________       KC_RBRC, KC_MINUS, KC_EQL, KC_QUOT,   KC_BSLS
 
 #define _________________LOWER_L1__________________       KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC
 #define _________________LOWER_L2__________________       RGB_TOG, RGB_RMOD, RGB_MOD, RGB_SAI, RGB_SAD
@@ -41,9 +41,9 @@
 #define _________________ACTION_L2_________________       RGB_VAI, RGB_SPI, RGB_HUI, RGB_HUD, RGB_VAI
 #define _________________ACTION_L3_________________       RGB_VAD, RGB_SPD, KC_CPYW, KC_CPYP, RGB_VAD
 
-#define _________________ACTION_R1_________________        _______, _______, _______, _______, KC_MINS
-#define _________________ACTION_R2__________________       KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_EQL
-#define _________________ACTION_R3__________________       _______, KC_LEFT, KC_DOWN, KC_UP,   KC_QUOT
+#define _________________ACTION_R1_________________        _______, _______, _______, _______, KC_MINUS
+#define _________________ACTION_R2_________________        KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_EQL
+#define _________________ACTION_R3_________________        _______, KC_LEFT, KC_DOWN, KC_UP,   KC_QUOT
 
 #define ________________NUMBER_LEFT________________       MT(KC_ESC, KC_1),    KC_2,    KC_3,    KC_4,    KC_5
 #define ________________NUMBER_RIGHT_______________       KC_6,    KC_7,    KC_8,    KC_9,    KC_0
