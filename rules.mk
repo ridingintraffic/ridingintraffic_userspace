@@ -7,7 +7,6 @@ UNICODE_ENABLE = yes
 WPM_ENABLE = yes
 EXTRAKEY_ENABLE = yes
 SRC += ridingintraffic.c
-CAPS_WORD_ENABLE = yes
 
 
 ifeq ($(strip $(USE_SECRETS)), yes)
