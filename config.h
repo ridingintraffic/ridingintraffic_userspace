@@ -31,9 +31,9 @@
     #include "keymaps/planck.h"
 #endif //KEYBOARD_planck_rev6
 
-#ifdef KEYBOARD_1upkeyboards_sweet16_v1
+#ifdef KEYBOARD_1upkeyboards_sweet16
     #include "keymaps/sweet16.h"
-#endif //KEYBOARD_1upkeyboards_sweet16_v1
+#endif //KEYBOARD_1upkeyboards_sweet16
 
 #ifdef KEYBOARD_fingerpunch_ffkb_byomcu
     #include "keymaps/ffkb.h"
