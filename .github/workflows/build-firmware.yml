@@ -16,6 +16,7 @@ jobs:
         - ergodox.json
         - preonic.json
         - planck-v6.json
+        - sweet16.json
 
 # End of json file list
 
