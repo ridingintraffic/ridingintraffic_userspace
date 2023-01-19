@@ -1,0 +1,13 @@
+{
+  "author": "",
+  "documentation": "Wrapper based keymap",
+  "keyboard": "1upkeyboards/sweet16/v1",
+  "keymap": "ridingintraffic",
+  "layers": [
+      [ "BASE" ],
+      [ "RAISE" ]
+
+  ],
+"layout":"LAYOUT_wrapper_ortho_4x4",
+"notes": ""
+}
