@@ -148,7 +148,7 @@ jobs:
       with:
         repository: sadekbaroudi/qmk_firmware
 # Uncomment the following for develop branch
-        ref: develop_fingerpunch
+        ref: master
         submodules: true
 
     - name: Checkout userspace
