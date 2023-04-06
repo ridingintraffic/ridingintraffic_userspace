@@ -35,6 +35,10 @@
     #include "keymaps/sweet16.h"
 #endif //KEYBOARD_1upkeyboards_sweet16
 
+#ifdef KEYBOARD_bastardkb_skeletyl_v2_splinky_v3
+    #include "keymaps/skeletyl.h"
+#endif //KEYBOARD_1upkeyboards_sweet16
+
 #ifdef KEYBOARD_fingerpunch_ffkb_byomcu
     #include "keymaps/ffkb.h"
 

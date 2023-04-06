@@ -59,6 +59,7 @@ jobs:
         file:
         - lily58.json
         - crkbd.json
+        - skeletyl.json
 # End of json file list
 
     steps:

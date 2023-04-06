@@ -1,0 +1,15 @@
+{
+    "author": "",
+    "documentation": "Wrapper based keymap",
+    "keyboard": "bastardkb/skeletyl/v2/splinky/v3",
+    "keymap": "ridingintraffic",
+    "layers": [
+        [ "BASE" ],
+        [ "RAISE" ],
+        [ "LOWER" ],
+        [ "NOT_ACTION" ]
+
+    ],
+  "layout":"LAYOUT_wrapper_split_3x5_3",
+  "notes": ""
+  }
