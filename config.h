@@ -35,8 +35,12 @@
     #include "keymaps/sweet16.h"
 #endif //KEYBOARD_1upkeyboards_sweet16
 
-#ifdef KEYBOARD_bastardkb_skeletyl_v2_splinky_v3
+#ifdef KEYBOARD_bastardkb_skeletyl_v2_elitec
     #include "keymaps/skeletyl.h"
+    #ifdef EE_HANDS
+        #undef EE_HANDS
+    #endif
+    #define MASTER_LEFT
 #endif //KEYBOARD_1upkeyboards_sweet16
 
 #ifdef KEYBOARD_fingerpunch_ffkb_byomcu

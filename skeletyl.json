@@ -1,7 +1,7 @@
 {
     "author": "",
     "documentation": "Wrapper based keymap",
-    "keyboard": "bastardkb/skeletyl/v2/splinky/v3",
+    "keyboard": "bastardkb/skeletyl/v2/elitec",
     "keymap": "ridingintraffic",
     "layers": [
         [ "BASE" ],

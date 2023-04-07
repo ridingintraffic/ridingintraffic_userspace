@@ -2,12 +2,11 @@ BOOTMAGIC_ENABLE = yes
 SPACE_CADET_ENABLE = no
 GRAVE_ESC_ENABLE   = yes
 COMMAND_ENABLE     = no
-TAP_DANCE_ENABLE = yes
+TAP_DANCE_ENABLE = no
 UNICODE_ENABLE = yes
 WPM_ENABLE = yes
 EXTRAKEY_ENABLE = yes
 SRC += ridingintraffic.c
-
 
 ifeq ($(strip $(USE_SECRETS)), yes)
 	ifneq ("$(wildcard $(USER_PATH)/secrets.c)", "")
