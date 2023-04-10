@@ -27,7 +27,7 @@
 
 #define _________________RAISE_R1__________________       KC_RBRC, KC_RCBR, KC_NO, KC_NO, KC_NO
 #define _________________RAISE_R2__________________       KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_DQT
-#define _________________RAISE_R3__________________       KC_RBRC, KC_MINUS, KC_EQL, KC_QUOT,  KC_BSLS
+#define _________________RAISE_R3__________________       KC_RBRC, KC_MINUS, KC_EQL, KC_PIPE,  KC_BSLS
 
 #define _________________LOWER_L1__________________       ________________NUMBER_LEFT________________
 #define _________________LOWER_L2__________________       RGB_TOG, RGB_RMOD, RGB_MOD, RGB_SAI, RGB_SAD
