@@ -41,6 +41,9 @@
         #undef EE_HANDS
     #endif
     #define MASTER_LEFT
+    #define ENABLE_RGB_MATRIX_PIXEL_FRACTAL
+    #define ENABLE_RGB_MATRIX_JELLYBEAN_RAINDROPS
+    #define ENABLE_RGB_MATRIX_RAINDROPS
 #endif //KEYBOARD_1upkeyboards_sweet16
 
 #ifdef KEYBOARD_fingerpunch_ffkb_byomcu

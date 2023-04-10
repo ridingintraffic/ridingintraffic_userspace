@@ -1,4 +1,5 @@
 #define LAYOUT_wrapper_split_3x5_3(...) LAYOUT_split_3x5_3(__VA_ARGS__)
+#define MASTER_LEFT
 
 #define BASE \
    _________________QWERTY_L1_________________,              _________________QWERTY_R1_________________,  \
