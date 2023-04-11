@@ -1,7 +1,7 @@
 #pragma once
 
 // Common QMK variables
-#define TAPPING_TERM 275
+#define TAPPING_TERM 200
 #define PERMISSIVE_HOLD
 #define IGNORE_MOD_TAP_INTERRUPT
  
@@ -17,6 +17,10 @@
 #ifdef KEYBOARD_ergodox_ez
     #include "keymaps/ergodox.h"
     #include "version.h"
+    #ifdef TAPPING_TERM
+        #undef TAPPING_TERM
+        #define TAPPING_TERM 200
+    #endif
 #endif // KEYBOARD_ergodox_ez
 
 #ifdef KEYBOARD_keebio_iris_rev4
