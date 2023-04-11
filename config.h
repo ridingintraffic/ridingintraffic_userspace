@@ -44,6 +44,9 @@
     #ifdef EE_HANDS
         #undef EE_HANDS
     #endif
+    #ifdef MASTER_RIGHT
+        #undef MASTER_RIGHT
+    #endif
     #define MASTER_LEFT
     #define ENABLE_RGB_MATRIX_PIXEL_FRACTAL
     #define ENABLE_RGB_MATRIX_JELLYBEAN_RAINDROPS
