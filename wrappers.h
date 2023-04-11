@@ -51,8 +51,8 @@
 #define ________________SYMBOL_LEFT________________       KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC
 #define ________________SYMBOL_RIGHT_______________       KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN
 
-#define __THUMBS_3L__            MT(MOD_LSFT, KC_UNDS), KC_LGUI, KC_BSPC
-#define __THUMBS_3R__            MT(MOD_MEH, KC_SPC), MT(MOD_MEH, KC_ENT), MT(MOD_LSFT, KC_MINUS)
+#define __THUMBS_3L__            MT(MOD_LSFT, KC_UNDS), KC_LGUI, MT(MOD_MEH, KC_BSPC)
+#define __THUMBS_3R__            MT(MOD_MEH, KC_SPC), MT(MOD_HYPR, KC_ENT), MT(MOD_LSFT, KC_MINUS)
 
 #define __THUMBS_3L_RAISE__      KC_LCTL, KC_LALT, KC_BSLS
 #define __THUMBS_3R_RAISE__      KC_TAB, KC_EQL, KC_PLUS
