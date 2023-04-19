@@ -59,7 +59,7 @@
 
 
 #define __THUMBS_3L_LOWER__       LT(1, KC_LCTL), KC_LALT, KC_BSPC
-#define __THUMBS_3R_LOWER__      MT(MOD_MEH, KC_SPC), KC_EQL, KC_PLUS
+#define __THUMBS_3R_LOWER__      KC_BTN1, KC_BTN2, KC_PLUS
 
 #define __THUMBS_PL_3L__            LT(2, KC_LCTL), KC_LGUI, KC_BSPC
 #define __THUMBS_PL_3R__            KC_SPC, KC_ENT, LT(3, KC_LALT)
