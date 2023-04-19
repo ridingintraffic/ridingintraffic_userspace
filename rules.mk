@@ -7,6 +7,7 @@ UNICODE_ENABLE = yes
 WPM_ENABLE = yes
 EXTRAKEY_ENABLE = yes
 SRC += ridingintraffic.c
+MOUSEKEY_ENABLE = yes
 
 ifeq ($(strip $(USE_SECRETS)), yes)
 	ifneq ("$(wildcard $(USER_PATH)/secrets.c)", "")

@@ -6,6 +6,18 @@
 #define IGNORE_MOD_TAP_INTERRUPT
 #define  QUICK_TAP_TERM 100
 
+// Mouse key speed and acceleration.
+#undef MOUSEKEY_DELAY
+#define MOUSEKEY_DELAY          0
+#undef MOUSEKEY_INTERVAL
+#define MOUSEKEY_INTERVAL       16
+#undef MOUSEKEY_WHEEL_DELAY
+#define MOUSEKEY_WHEEL_DELAY    0
+#undef MOUSEKEY_MAX_SPEED
+#define MOUSEKEY_MAX_SPEED      6
+#undef MOUSEKEY_TIME_TO_MAX
+#define MOUSEKEY_TIME_TO_MAX    64
+
 #ifdef KEYBOARD_lily58
     #include "keymaps/lily58.h"
 #endif // KEYBOARD_lily58
@@ -52,7 +64,8 @@
     #define ENABLE_RGB_MATRIX_PIXEL_FRACTAL
     #define ENABLE_RGB_MATRIX_JELLYBEAN_RAINDROPS
     #define ENABLE_RGB_MATRIX_RAINDROPS
-#endif //KEYBOARD_1upkeyboards_sweet16
+
+    #endif //KEYBOARD_1upkeyboards_sweet16
 
 #ifdef KEYBOARD_fingerpunch_ffkb_byomcu
     #include "keymaps/ffkb.h"
