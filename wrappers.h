@@ -30,16 +30,16 @@
 #define _________________RAISE_R3__________________       KC_RBRC, KC_MINUS, KC_EQL, KC_PIPE,  KC_BSLS
 
 #define _________________LOWER_L1__________________       ________________NUMBER_LEFT________________
-#define _________________LOWER_L2__________________       RGB_TOG, RGB_RMOD, RGB_MOD, RGB_SAI, RGB_SAD
-#define _________________LOWER_L3__________________       KC_LCBR, RGB_SAD, KC_CPYW, KC_CPYP,   KC_SPC
+#define _________________LOWER_L2__________________       RGB_TOG, RGB_RMOD, RGB_MOD, RGB_M_P, RGB_SAI
+#define _________________LOWER_L3__________________       KC_LCBR, RGB_SAD, KC_CPYW, KC_CPYP,   RGB_SAD
 
 #define _________________LOWER_R1__________________       ________________NUMBER_RIGHT_______________
 #define _________________LOWER_R2__________________       _______, KC_UNDS, KC_PLUS, KC_LCBR, KC_QUOT
 #define _________________LOWER_R3__________________       KC_RCBR, KC_HOME, KC_PGDN, KC_PGUP, KC_END
 
 #define _________________ACTION_L1_________________       ________________SYMBOL_LEFT________________
-#define _________________ACTION_L2_________________       RGB_VAI, RGB_SPI, RGB_HUI, RGB_HUD, RGB_VAI
-#define _________________ACTION_L3_________________       RGB_VAD, RGB_SPD, KC_CPYW, KC_CPYP, RGB_VAD
+#define _________________ACTION_L2_________________       RGB_VAI, RGB_HUI, RGB_SAI, RGB_MOD, RGB_VAI
+#define _________________ACTION_L3_________________       RGB_VAD, RGB_HUD, RGB_SAD, RGB_RMOD, RGB_VAD
 
 #define _________________ACTION_R1_________________        ________________SYMBOL_RIGHT_______________
 #define _________________ACTION_R2_________________        KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_EQL
