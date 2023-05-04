@@ -2,7 +2,7 @@
 
 // Common QMK variables
 #define TAPPING_TERM 75
-//#define PERMISSIVE_HOLD
+#define PERMISSIVE_HOLD
 #define IGNORE_MOD_TAP_INTERRUPT
 #define  QUICK_TAP_TERM 100
 
