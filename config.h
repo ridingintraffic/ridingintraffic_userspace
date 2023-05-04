@@ -1,10 +1,10 @@
 #pragma once
 
 // Common QMK variables
-#define TAPPING_TERM 125
+#define TAPPING_TERM 200
 #define PERMISSIVE_HOLD
 #define IGNORE_MOD_TAP_INTERRUPT
-#define  QUICK_TAP_TERM 100
+#define  QUICK_TAP_TERM 200
 
 #ifdef KEYBOARD_lily58
     #include "keymaps/lily58.h"
