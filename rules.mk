@@ -32,4 +32,5 @@ endif
 # planck
 ifeq ($(strip $(KEYBOARD)), fingerpunch/sweeeeep)
         PIN_COMPATIBLE=elite_c
+		RGBLIGHT_ENABLE=yes
 endif
