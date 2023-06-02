@@ -1,14 +1,14 @@
 {
     "author": "",
     "documentation": "Wrapper based keymap",
-    "keyboard": " bastardkb/charybdis/3x5/v2/splinky_3",
+    "keyboard": "bastardkb/charybdis/3x5/v2/splinky_3",
     "keymap": "ridingintraffic",
     "layers": [
         [ "BASE" ],
         [ "RAISE" ],
         [ "LOWER" ],
-        [ "NOT_ACTION" ]
-
+        [ "NOT_ACTION" ],
+        [ "MOUSE" ],
     ],
   "layout":"LAYOUT_wrapper_split_3x5_3",
   "notes": ""

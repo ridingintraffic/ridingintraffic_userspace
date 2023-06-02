@@ -3,7 +3,6 @@
 // Common QMK variables
 #define TAPPING_TERM 200
 #define PERMISSIVE_HOLD
-#define IGNORE_MOD_TAP_INTERRUPT
 #define  QUICK_TAP_TERM 200
 
 #ifdef KEYBOARD_lily58
@@ -56,6 +55,8 @@
 
 #ifdef KEYBOARD_bastardkb_charybdis_3x5_v2_splinky_3
     #include "keymaps/chary.h"
+    #define POINTING_DEVICE_AUTO_MOUSE_ENABLE
+    #define AUTO_MOUSE_DEFAULT_LAYER 4
     #ifdef EE_HANDS
         #undef EE_HANDS
     #endif
