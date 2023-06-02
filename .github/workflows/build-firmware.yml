@@ -122,7 +122,7 @@ jobs:
         path: users/${{ github.actor }}
 
     - name: Build firmware
-      run: qmk compile -j 16 "users/${{ github.actor }}/${{ matrix.file }}"
+      run: cp users/ridingintraffic/chary_info.json keyboards/bastardkb/charybdis/3x5/info.json; qmk compile -j 16 "users/${{ github.actor }}/${{ matrix.file }}"
 
     - name: Archive firmware
       uses: actions/upload-artifact@v2
