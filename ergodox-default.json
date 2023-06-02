@@ -2,11 +2,11 @@
   "author": "",
   "documentation": "Wrapper based keymap",
   "keyboard": "ergodox_ez/shine",
-  "keymap": "default",
+  "keymap": "rgb_layer",
   "layers": [
       [ "BASE" ],
-      [ "BASE" ],
-      [ "BASE" ]
+      [ "SYMB" ],
+      [ "MDIA" ]
 
   ],
 "layout": "LAYOUT_wrapper_ergodox_pretty",

@@ -93,6 +93,47 @@ jobs:
           *.bin
           *.uf2
       continue-on-error: true
+    build-splinky:
+    runs-on: ubuntu-latest
+    container: qmkfm/qmk_cli
+    strategy:
+      fail-fast: false
+      matrix:
+# List of keymap json files to build
+        file:
+        - chary.json
+# End of json file list
+
+    steps:
+
+    - name: Disable git safe directory checks
+      run: git config --global --add safe.directory '*'
+    - name: Checkout QMK
+      uses: actions/checkout@v3
+      with:
+        repository: qmk/qmk_firmware
+# Uncomment the following for develop branch
+#        ref: develop
+        submodules: true
+
+    - name: Checkout userspace
+      uses: actions/checkout@v2
+      with:
+        path: users/${{ github.actor }}
+
+    - name: Build firmware
+      run: qmk compile -j 16 "users/${{ github.actor }}/${{ matrix.file }}"
+
+    - name: Archive firmware
+      uses: actions/upload-artifact@v2
+      with:
+        name: ${{ matrix.file }}_${{ github.actor }}
+        retention-days: 5
+        path: |
+          *.hex
+          *.bin
+          *.uf2
+      continue-on-error: true
   build-fingerpunch:
     runs-on: ubuntu-latest
     container: qmkfm/qmk_cli

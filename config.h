@@ -54,6 +54,18 @@
     #define ENABLE_RGB_MATRIX_RAINDROPS
 #endif //KEYBOARD_1upkeyboards_sweet16
 
+#ifdef KEYBOARD_bastardkb_charybdis_3x5_v2_splinky_3
+    #include "keymaps/chary.h"
+    #ifdef EE_HANDS
+        #undef EE_HANDS
+    #endif
+    #ifdef MASTER_RIGHT
+        #undef MASTER_RIGHT
+    #endif
+    #define MASTER_LEFT
+#endif //KEYBOARD_1upkeyboards_sweet16
+
+
 #ifdef KEYBOARD_fingerpunch_ffkb_byomcu
     #include "keymaps/ffkb.h"
 

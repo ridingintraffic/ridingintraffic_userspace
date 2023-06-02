@@ -24,6 +24,10 @@ ifeq ($(strip $(KEYBOARD)), crkbd/rev1)
 
 endif
 
+ifeq ($(strip $(KEYBOARD)), bastardkb/charybdis/3x5/v2/splinky)
+    SRC += keymaps/chary.c
+endif
+
 # planck
 ifeq ($(strip $(KEYBOARD)), planck/rev6)
         STENO_ENABLE = yes
