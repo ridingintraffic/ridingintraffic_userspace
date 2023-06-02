@@ -93,7 +93,7 @@ jobs:
           *.bin
           *.uf2
       continue-on-error: true
-    build-splinky:
+  build-splinky:
     runs-on: ubuntu-latest
     container: qmkfm/qmk_cli
     strategy:
