@@ -9,6 +9,10 @@
 #define L3COMBO        MY_SAFE_RANGE+3
 #define F_SHIFT        MY_SAFE_RANGE+4
 #define J_SHIFT        MY_SAFE_RANGE+5
+#define ZMMT LGUI(LSFT(KC_A))  // zoom mute / unmute
+#define ZMSS LGUI(LSFT(KC_S))  // zoom screenshare start stop
+#define ZMSP LGUI(LSFT(KC_T))  // zoom screenshare pause resume
+#define ZMSV LGUI(LSFT(KC_V))  // zoom start stop video
 
 
 #define ___________________BLANK___________________       _______, _______, _______, _______, _______
@@ -70,3 +74,29 @@
 
 #define __THUMBS_PL_3L_LOWER__       LT(2, KC_LCTL), KC_LALT, KC_BSPC
 #define __THUMBS_PL_3R_LOWER__      KC_SPC, KC_ENT, LT(3, KC_LALT)
+
+#define __BASE_NUMPAD_1_1__          KC_MPLY, KC_VOLD,   KC_VOLU,      KC_NO
+#define __BASE_NUMPAD_1_2__          ZMMT,    ZMSV,      ZMSS,      ZMSP
+#define __BASE_NUMPAD_1_3__          KC_1,    KC_2,      KC_3,      KC_ENTER
+#define __BASE_NUMPAD_1_4__          KC_CPYP,    KC_CPYW,    LT(1,KC_K) LT(2,KC_K)
+
+#define __BASE_NUMPAD_2_1__          KC_HOME, KC_END,  KC_PGUP, KC_PGDN
+#define __BASE_NUMPAD_2_2__          KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
+#define __BASE_NUMPAD_2_3__          KC_1, KC_2,   KC_3,        KC_ENTER
+#define __BASE_NUMPAD_2_4__          KC_0, KC_DOT, LT(1,KC_K)   LT(2,KC_K)
+
+#define __BASE_NUMPAD_3_1__          KC_7, KC_8,   KC_9,      KC_PLUS
+#define __BASE_NUMPAD_3_2__          KC_4, KC_5,   KC_6,      KC_NO
+#define __BASE_NUMPAD_3_3__          KC_1, KC_2,   KC_3,      KC_ENTER
+#define __BASE_NUMPAD_3_4__          KC_0, KC_DOT, LT(2,KC_K) LT(1,KC_K)
+
+
+#define __RAISE_NUMPAD_1__
+#define __RAISE_NUMPAD_2__
+#define __RAISE_NUMPAD_3__
+#define __RAISE_NUMPAD_4__
+
+#define __LOWER_NUMPAD_1__
+#define __LOWER_NUMPAD_2__
+#define __LOWER_NUMPAD_3__
+#define __LOWER_NUMPAD_4__
