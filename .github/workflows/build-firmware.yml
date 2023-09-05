@@ -93,7 +93,7 @@ jobs:
           *.bin
           *.uf2
       continue-on-error: true
-    build-sparkfun-2040:
+  build-sparkfun-2040:
     runs-on: ubuntu-latest
     container: qmkfm/qmk_cli
     strategy:
