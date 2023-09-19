@@ -86,7 +86,7 @@ jobs:
     - name: Archive firmware
       uses: actions/upload-artifact@v2
       with:
-        name: ${{ matrix.file }}_${{ github.actor }}
+        name: ${{ matrix.file }}_${{ github.actor }}_kb2040
         retention-days: 90
         path: |
           *.hex
@@ -127,7 +127,7 @@ jobs:
     - name: Archive firmware
       uses: actions/upload-artifact@v2
       with:
-        name: ${{ matrix.file }}_${{ github.actor }}
+        name: ${{ matrix.file }}_${{ github.actor }}_sparkfun_2040
         retention-days: 90
         path: |
           *.hex
