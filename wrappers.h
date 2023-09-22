@@ -86,7 +86,7 @@
 #define __BASE_NUMPAD_2_4__          KC_0, KC_DOT
 
 #define __BASE_NUMPAD_3_1__          KC_7, KC_8,   KC_9,      KC_PLUS
-#define __BASE_NUMPAD_3_2__          KC_4, KC_5,   KC_6,      KC_NO
+#define __BASE_NUMPAD_3_2__          KC_4, KC_5,   KC_6,      KC_MINUS
 #define __BASE_NUMPAD_3_3__          KC_1, KC_2,   KC_3,      KC_ENTER
 #define __BASE_NUMPAD_3_4__          KC_0, KC_DOT, LT(2,KC_K), LT(1,KC_K)
 
