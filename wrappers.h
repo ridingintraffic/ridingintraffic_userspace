@@ -83,7 +83,7 @@
 #define __BASE_NUMPAD_2_1__          LCTL(KC_A), LCTL(KC_E),  KC_PGUP, KC_PGDN
 #define __BASE_NUMPAD_2_2__          KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
 #define __BASE_NUMPAD_2_3__          KC_NO,   KC_NO,   KC_NO,   KC_NO
-#define __BASE_NUMPAD_2_4__          KC_0, KC_DOT
+#define __BASE_NUMPAD_2_4__          KC_NO,   KC_NO,   KC_NO,   KC_NO
 
 #define __BASE_NUMPAD_3_1__          KC_7, KC_8,   KC_9,      KC_PLUS
 #define __BASE_NUMPAD_3_2__          KC_4, KC_5,   KC_6,      KC_MINUS

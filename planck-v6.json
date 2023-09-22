@@ -10,7 +10,7 @@
       [ "LOWER" ]
 
   ],
-  "layout": "LAYOUT_wrapper_planck_2x2u",
+  "layout": "LAYOUT_wrapper_ortho_4x12",
   "notes": "",
   "version": 1
 }
