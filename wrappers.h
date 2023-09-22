@@ -82,13 +82,13 @@
 
 #define __BASE_NUMPAD_2_1__          KC_HOME, KC_END,  KC_PGUP, KC_PGDN
 #define __BASE_NUMPAD_2_2__          KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
-#define __BASE_NUMPAD_2_3__          KC_1, KC_2,   KC_3,        KC_ENTER
+#define __BASE_NUMPAD_2_3__          KC_1,    KC_2,    KC_3,    KC_ENTER
 #define __BASE_NUMPAD_2_4__          KC_0, KC_DOT
 
 #define __BASE_NUMPAD_3_1__          KC_7, KC_8,   KC_9,      KC_PLUS
 #define __BASE_NUMPAD_3_2__          KC_4, KC_5,   KC_6,      KC_NO
 #define __BASE_NUMPAD_3_3__          KC_1, KC_2,   KC_3,      KC_ENTER
-#define __BASE_NUMPAD_3_4__          KC_0, KC_DOT, LT(2,KC_K) LT(1,KC_K)
+#define __BASE_NUMPAD_3_4__          KC_0, KC_DOT, LT(2,KC_K), LT(1,KC_K)
 
 
 #define __RAISE_NUMPAD_1__
