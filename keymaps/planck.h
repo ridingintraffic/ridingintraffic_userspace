@@ -1,10 +1,10 @@
 #define LAYOUT_wrapper_planck_2x2u(...) LAYOUT_planck_2x2u(__VA_ARGS__)
 
 #define BASE \
-QK_GESC,   _________________QWERTY_L1_________________,  _________________QWERTY_R1_________________,    KC_MINUS, \
-KC_TAB,    _________________QWERTY_L2_________________,  _________________QWERTY_R2_________________, KC_QUOT, \
-KC_LSFT,   _________________QWERTY_L3_________________,  _________________QWERTY_R3_________________,  KC_RSFT, \
-LT(1, KC_LCTL), LT(2, KC_LALT), __THUMBS_PL_3L__, __THUMBS_PL_3R__, LT(1, KC_LCTL), LT(2, KC_LALT)
+__BASE_NUMPAD_1_1__,   __BASE_NUMPAD_2_1__,  __BASE_NUMPAD_3_1__, \
+__BASE_NUMPAD_1_2__,   __BASE_NUMPAD_2_2__,  __BASE_NUMPAD_3_2__, \
+__BASE_NUMPAD_1_3__,   __BASE_NUMPAD_2_3__,  __BASE_NUMPAD_3_3__, \
+__BASE_NUMPAD_1_4__,   __BASE_NUMPAD_2_4__,  __BASE_NUMPAD_3_4__
 
 #define RAISE \
 QK_GESC,   _________________RAISE_L1__________________,  _________________RAISE_R1__________________,    KC_MINUS, \
