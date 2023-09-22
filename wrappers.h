@@ -75,10 +75,10 @@
 #define __THUMBS_PL_3L_LOWER__       LT(2, KC_LCTL), KC_LALT, KC_BSPC
 #define __THUMBS_PL_3R_LOWER__      KC_SPC, KC_ENT, LT(3, KC_LALT)
 
-#define __BASE_NUMPAD_1_1__          KC_MPLY, KC_VOLD,   KC_VOLU,      KC_NO
-#define __BASE_NUMPAD_1_2__          ZMMT,    ZMSV,      ZMSS,      ZMSP
-#define __BASE_NUMPAD_1_3__          KC_1,    KC_2,      KC_3,      KC_ENTER
-#define __BASE_NUMPAD_1_4__          KC_CPYP,    KC_CPYW,    LT(1,KC_K) LT(2,KC_K)
+#define __BASE_NUMPAD_1_1__          KC_MPLY, KC_VOLD,   KC_VOLU,  KC_NO
+#define __BASE_NUMPAD_1_2__          ZMMT,    ZMSV,      ZMSS,     ZMSP
+#define __BASE_NUMPAD_1_3__          KC_1,    KC_2,      KC_3,     KC_ENTER
+#define __BASE_NUMPAD_1_4__          KC_LCTL, KC_LGUI,   KC_LALT,  KC_NO
 
 #define __BASE_NUMPAD_2_1__          KC_HOME, KC_END,  KC_PGUP, KC_PGDN
 #define __BASE_NUMPAD_2_2__          KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
