@@ -77,7 +77,7 @@
 
 #define __BASE_NUMPAD_1_1__          KC_MPLY, KC_VOLD,   KC_VOLU,  KC_NO
 #define __BASE_NUMPAD_1_2__          ZMMT,    ZMSV,      ZMSS,     ZMSP
-#define __BASE_NUMPAD_1_3__          KC_1,    KC_2,      KC_3,     KC_ENTER
+#define __BASE_NUMPAD_1_3__          KC_NO,    KC_NO,      KC_NO,     KC_NO
 #define __BASE_NUMPAD_1_4__          KC_LCTL, KC_LGUI,   KC_LALT,  KC_NO
 
 #define __BASE_NUMPAD_2_1__          KC_HOME, KC_END,  KC_PGUP, KC_PGDN
