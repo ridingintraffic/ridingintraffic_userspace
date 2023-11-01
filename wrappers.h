@@ -25,11 +25,11 @@
 #define _________________QWERTY_R2_________________       KC_H,    MT(MOD_LSFT, KC_J),  LT(1,KC_K),    LT(2,KC_L),    LT(3,KC_SCLN)
 #define _________________QWERTY_R3_________________       KC_N,    KC_M,                KC_COMM, KC_DOT,  MT(MOD_LSFT, KC_SLSH)
 
-#define _________________RAISE_L1__________________       QK_GESC, KC_NO, KC_NO, KC_LCBR, KC_LBRC
+#define _________________RAISE_L1__________________       QK_GESC, KC_VOLD, KC_VOLU, KC_LCBR, KC_LBRC
 #define _________________RAISE_L2__________________       KC_GRV, KC_NO, KC_NO, KC_NO, KC_QUOT
 #define _________________RAISE_L3__________________       KC_TILDE, _______, KC_CPYW, KC_CPYP, KC_LBRC
 
-#define _________________RAISE_R1__________________       KC_RBRC, KC_RCBR, KC_NO, KC_NO, KC_NO
+#define _________________RAISE_R1__________________       KC_RBRC, KC_RCBR, KC_NO, KC_NO, KC_MPLY
 #define _________________RAISE_R2__________________       KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_DQT
 #define _________________RAISE_R3__________________       KC_RBRC, KC_MINUS, KC_EQL, KC_PIPE,  KC_BSLS
 
