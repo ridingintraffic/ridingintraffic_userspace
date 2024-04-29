@@ -8,7 +8,7 @@
         [ "RAISE" ],
         [ "LOWER" ],
         [ "NOT_ACTION" ],
-        [ "NUMPAD" ],
+        [ "NUMPAD" ]
 
     ],
   "layout":"LAYOUT_wrapper_split_3x5_3",
