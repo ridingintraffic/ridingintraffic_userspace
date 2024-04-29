@@ -19,7 +19,7 @@
 
 #define _________________QWERTY_L1_________________       KC_Q,    KC_W,  KC_E,    KC_R,                KC_T
 #define _________________QWERTY_L2_________________       LT(3,KC_A), LT(2,KC_S), LT(1,KC_D),    MT(MOD_LSFT, KC_F),    KC_G
-#define _________________QWERTY_L3_________________       MT(MOD_LSFT, KC_Z),    KC_X,    KC_C,    KC_V,                KC_B
+#define _________________QWERTY_L3_________________       MT(MOD_LSFT, KC_Z),    KC_X,    KC_C,    KC_V,                LT(4,KC_B)
 
 #define _________________QWERTY_R1_________________       KC_Y,    KC_U,                KC_I,          KC_O,          KC_P
 #define _________________QWERTY_R2_________________       KC_H,    MT(MOD_LSFT, KC_J),  LT(1,KC_K),    LT(2,KC_L),    LT(3,KC_SCLN)
@@ -49,6 +49,11 @@
 #define _________________ACTION_R2_________________        KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_EQL
 #define _________________ACTION_R3_________________        _______, KC_LEFT, KC_DOWN, KC_UP,   KC_QUOT
 
+
+#define _________________NUMPAD_R1_________________        KC_7,    KC_8,    KC_9,   KC_RGHT, KC_EQL
+#define _________________NUMPAD_R2_________________        KC_4,    KC_5,    KC_6,   KC_RGHT, KC_EQL
+#define _________________NUMPAD_R3_________________        KC_1,    KC_2,    KC_3, KC_UP,   KC_QUOT
+
 #define ________________NUMBER_LEFT________________       KC_1,    KC_2,    KC_3,    KC_4,    KC_5
 #define ________________NUMBER_RIGHT_______________       KC_6,    KC_7,    KC_8,    KC_9,    KC_0
 
@@ -70,6 +75,8 @@
 
 #define __THUMBS_PL_3L_RAISE__      LT(2, KC_LCTL), KC_LALT, KC_BSPC
 #define __THUMBS_PL_3R_RAISE__      KC_SPC, LCTL(KC_LEFT), LCTL(KC_RIGHT)
+
+#define __THUMBS_3R_NUMPAD__      KC_0, KC_DOT, KC_ENT
 
 
 #define __THUMBS_PL_3L_LOWER__       LT(2, KC_LCTL), KC_LALT, KC_BSPC
