@@ -76,7 +76,7 @@
 #define __THUMBS_PL_3L_RAISE__      LT(2, KC_LCTL), KC_LALT, KC_BSPC
 #define __THUMBS_PL_3R_RAISE__      KC_SPC, LCTL(KC_LEFT), LCTL(KC_RIGHT)
 
-#define __THUMBS_3R_NUMPAD__      KC_0, KC_DOT, KC_ENT
+#define __THUMBS_3R_NUMPAD__        KC_0, KC_DOT, KC_ENT
 
 
 #define __THUMBS_PL_3L_LOWER__       LT(2, KC_LCTL), KC_LALT, KC_BSPC
