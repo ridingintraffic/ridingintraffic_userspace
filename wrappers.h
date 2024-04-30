@@ -50,9 +50,14 @@
 #define _________________ACTION_R3_________________        _______, KC_LEFT, KC_DOWN, KC_UP,   KC_QUOT
 
 
-#define _________________NUMPAD_R1_________________        KC_7,    KC_8,    KC_9,   KC_RGHT, KC_EQL
-#define _________________NUMPAD_R2_________________        KC_4,    KC_5,    KC_6,   KC_RGHT, KC_EQL
-#define _________________NUMPAD_R3_________________        KC_1,    KC_2,    KC_3, KC_UP,   KC_QUOT
+#define _________________NUMPAD_R1_________________        KC_7,    KC_8,    KC_9,   KC_NO, KC_NO
+#define _________________NUMPAD_R2_________________        KC_4,    KC_5,    KC_6,   KC_NO, KC_NO
+#define _________________NUMPAD_R3_________________        KC_1,    KC_2,    KC_3, KC_NO,   KC_NO
+
+#define _________________SYMPAD_R1_________________        KC_AMPR,    KC_ASTR,    KC_LPRN,   KC_NO, KC_NO
+#define _________________SYMPAD_R2_________________        KC_DLR,    KC_PERC,    KC_CIRC,   KC_NO, KC_NO
+#define _________________SYMPAD_R3_________________        KC_EXLM,    KC_AT,    KC_HASH, KC_NO,   KC_NO
+
 
 #define ________________NUMBER_LEFT________________       KC_1,    KC_2,    KC_3,    KC_4,    KC_5
 #define ________________NUMBER_RIGHT_______________       KC_6,    KC_7,    KC_8,    KC_9,    KC_0
@@ -77,8 +82,9 @@
 #define __THUMBS_PL_3R_RAISE__      KC_SPC, LCTL(KC_LEFT), LCTL(KC_RIGHT)
 
 #define __THUMBS_3R_NUMPAD__        KC_0, KC_DOT, KC_ENT
+#define __THUMBS_3R_SYMPAD__        KC_0, KC_DOT, KC_ENT
 
-
+KC_RPRN
 #define __THUMBS_PL_3L_LOWER__       LT(2, KC_LCTL), KC_LALT, KC_BSPC
 #define __THUMBS_PL_3R_LOWER__      KC_SPC, KC_ENT, LT(3, KC_LALT)
 
