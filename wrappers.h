@@ -84,7 +84,6 @@
 #define __THUMBS_3R_NUMPAD__        KC_0, KC_DOT, KC_ENT
 #define __THUMBS_3R_SYMPAD__        KC_0, KC_DOT, KC_ENT
 
-KC_RPRN
 #define __THUMBS_PL_3L_LOWER__       LT(2, KC_LCTL), KC_LALT, KC_BSPC
 #define __THUMBS_PL_3R_LOWER__      KC_SPC, KC_ENT, LT(3, KC_LALT)
 
