@@ -19,7 +19,7 @@
 
 #define _________________QWERTY_L1_________________       KC_Q,    KC_W,  KC_E,    KC_R,                KC_T
 #define _________________QWERTY_L2_________________       LT(3,KC_A), LT(2,KC_S), LT(1,KC_D),    MT(MOD_LSFT, KC_F),    KC_G
-#define _________________QWERTY_L3_________________       MT(MOD_LSFT, KC_Z),    KC_X,    KC_C,    KC_V,                LT(4,KC_B)
+#define _________________QWERTY_L3_________________       MT(MOD_LSFT, KC_Z),    KC_X,    KC_C,    LT(5,KC_V),   LT(4,KC_B)
 
 #define _________________QWERTY_R1_________________       KC_Y,    KC_U,                KC_I,          KC_O,          KC_P
 #define _________________QWERTY_R2_________________       KC_H,    MT(MOD_LSFT, KC_J),  LT(1,KC_K),    LT(2,KC_L),    LT(3,KC_SCLN)
