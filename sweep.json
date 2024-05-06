@@ -7,7 +7,9 @@
         [ "BASE" ],
         [ "RAISE" ],
         [ "LOWER" ],
-        [ "NOT_ACTION" ]
+        [ "NOT_ACTION" ],
+        [ "NUMPAD" ],
+        [ "SYMPAD" ]
     ],
     "layout": "LAYOUT_wrapper_sweeeeep",
     "notes": "",
