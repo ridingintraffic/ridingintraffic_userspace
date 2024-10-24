@@ -40,7 +40,7 @@ jobs:
       run: qmk compile -j 8 "users/${{ github.actor }}/${{ matrix.file }}"
 
     - name: Archive firmware
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ matrix.file }}_${{ github.actor }}
         retention-days: 90
@@ -84,7 +84,7 @@ jobs:
       run: qmk compile -j 16 "users/${{ github.actor }}/${{ matrix.file }}" -e CONVERT_TO=kb2040
 
     - name: Archive firmware
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ matrix.file }}_${{ github.actor }}_kb2040
         retention-days: 90
@@ -125,7 +125,7 @@ jobs:
       run: qmk compile -j 16 "users/${{ github.actor }}/${{ matrix.file }}" -e CONVERT_TO=rp2040_ce
 
     - name: Archive firmware
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ matrix.file }}_${{ github.actor }}_kb2040
         retention-days: 90
@@ -166,7 +166,7 @@ jobs:
       run: qmk compile -j 16 "users/${{ github.actor }}/${{ matrix.file }}" -e CONVERT_TO=promicro_rp2040
 
     - name: Archive firmware
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ matrix.file }}_${{ github.actor }}_sparkfun_2040
         retention-days: 90
@@ -207,7 +207,7 @@ jobs:
       run: cp users/ridingintraffic/chary_info.json keyboards/bastardkb/charybdis/3x5/info.json; qmk compile -j 16 "users/${{ github.actor }}/${{ matrix.file }}"
 
     - name: Archive firmware
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ matrix.file }}_${{ github.actor }}
         retention-days: 90
@@ -250,7 +250,7 @@ jobs:
       run: qmk compile -j 16 "users/${{ github.actor }}/${{ matrix.file }}" -e FP_EVQ_UNDER_PALMS=yes -e  RGB_MATRIX_ENABLE=yes
 
     - name: Archive firmware
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ matrix.file }}_${{ github.actor }}
         retention-days: 90
@@ -291,7 +291,7 @@ jobs:
       run: qmk compile -j 16 "users/${{ github.actor }}/${{ matrix.file }}" -e CONVERT_TO=elite_pi
 
     - name: Archive firmware
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ matrix.file }}_${{ github.actor }}
         retention-days: 90
@@ -333,7 +333,7 @@ jobs:
       run: qmk compile -j 16 "users/${{ github.actor }}/${{ matrix.file }}" -e CONVERT_TO=stemcell -e FP_EVQ_UNDER_PALMS=yes -e RGBLIGHT_ENABLE=yes
 
     - name: Archive firmware
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ matrix.file }}_${{ github.actor }}
         retention-days: 90
