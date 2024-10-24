@@ -113,7 +113,8 @@ jobs:
       with:
         repository: Bastardkb/bastardkb-qmk
 # Uncomment the following for develop branch
-        ref: bkb-master
+        #ref: bkb-master
+        ref: main
         submodules: true
 
     - name: Checkout userspace
