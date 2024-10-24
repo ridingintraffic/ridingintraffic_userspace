@@ -123,7 +123,7 @@ jobs:
         path: users/${{ github.actor }}
 
     - name: Build firmware
-      run: qmk compile -j 16 "users/${{ github.actor }}/${{ matrix.file }}/v2/splinky_3" -e CONVERT_TO=rp2040_ce
+      run: qmk compile -j 16 "users/${{ github.actor }}/${{ matrix.file }}" -e CONVERT_TO=rp2040_ce
 
     - name: Archive firmware
       uses: actions/upload-artifact@v4
