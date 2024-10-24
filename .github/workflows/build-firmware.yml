@@ -93,7 +93,7 @@ jobs:
           *.bin
           *.uf2
       continue-on-error: true
-  build-bkb-kb2040:
+  build-bkb-2040ce:
     runs-on: ubuntu-latest
     container: qmkfm/qmk_cli
     strategy:
@@ -122,7 +122,7 @@ jobs:
         path: users/${{ github.actor }}
 
     - name: Build firmware
-      run: qmk compile -j 16 "users/${{ github.actor }}/${{ matrix.file }}" -e CONVERT_TO=kb2040
+      run: qmk compile -j 16 "users/${{ github.actor }}/${{ matrix.file }}" -e CONVERT_TO=rp2040_ce
 
     - name: Archive firmware
       uses: actions/upload-artifact@v2
