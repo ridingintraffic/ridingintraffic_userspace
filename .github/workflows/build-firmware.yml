@@ -113,8 +113,7 @@ jobs:
       with:
         repository: Bastardkb/bastardkb-qmk
 # Uncomment the following for develop branch
-        #ref: bkb-master
-        ref: main
+        ref: bkb-master
         submodules: true
 
     - name: Checkout userspace
@@ -123,7 +122,7 @@ jobs:
         path: users/${{ github.actor }}
 
     - name: Build firmware
-      run: qmk compile -c -kb bastardkb/skeletyl/v2/splinky_3 -km users/${{ github.actor }}/${{ matrix.file }}
+      run: qmk compile -c -kb bastardkb/skeletyl -km users/${{ github.actor }}/${{ matrix.file }}
       #qmk compile -j 16 "users/${{ github.actor }}/${{ matrix.file }}" -e CONVERT_TO=rp2040_ce
 
     - name: Archive firmware
