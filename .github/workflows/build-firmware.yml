@@ -60,7 +60,6 @@ jobs:
         file:
         - lily58.json
         - crkbd.json
-        - skeletyl.json
 # End of json file list
 
     steps:
@@ -102,7 +101,7 @@ jobs:
       matrix:
 # List of keymap json files to build
         file:
-        - chary.json
+        - skeletyl.json
 # End of json file list
 
     steps:
@@ -123,7 +122,7 @@ jobs:
         path: users/${{ github.actor }}
 
     - name: Build firmware
-      run: cp users/ridingintraffic/chary_info.json keyboards/bastardkb/charybdis/3x5/info.json; qmk compile -j 16 "users/${{ github.actor }}/${{ matrix.file }}"
+      run: qmk compile -j 16 "users/${{ github.actor }}/${{ matrix.file }}"
 
     - name: Archive firmware
       uses: actions/upload-artifact@v4
