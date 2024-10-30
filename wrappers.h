@@ -26,11 +26,11 @@
 #define _________________QWERTY_R3_________________       KC_N,    KC_M,                KC_COMM, KC_DOT,  MT(MOD_LSFT, KC_SLSH)
 
 #define _________________RAISE_L1__________________       QK_GESC, KC_VOLD, KC_VOLU, KC_LCBR, KC_LBRC
-#define _________________RAISE_L2__________________       KC_GRV, KC_NO, KC_NO, KC_NO, KC_SCLN
+#define _________________RAISE_L2__________________       KC_GRV, KC_NO, KC_NO, KC_NO, KC_DQT
 #define _________________RAISE_L3__________________       KC_TILDE, _______, KC_CPYW, KC_CPYP, KC_LBRC
 
 #define _________________RAISE_R1__________________       KC_RBRC, KC_RCBR, KC_NO, KC_NO, KC_MPLY
-#define _________________RAISE_R2__________________       KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_DQT
+#define _________________RAISE_R2__________________       KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_SCLN
 #define _________________RAISE_R3__________________       KC_RBRC, KC_MINUS, KC_EQL, KC_PIPE,  KC_BSLS
 
 #define _________________LOWER_L1__________________       ________________NUMBER_LEFT________________
@@ -38,7 +38,7 @@
 #define _________________LOWER_L3__________________       KC_LCBR, RGB_SAD, KC_CPYW, KC_CPYP,   RGB_SAD
 
 #define _________________LOWER_R1__________________       ________________NUMBER_RIGHT_______________
-#define _________________LOWER_R2__________________       _______, KC_UNDS, KC_PLUS, KC_LCBR, KC_QUOT
+#define _________________LOWER_R2__________________       _______, KC_UNDS, KC_PLUS, KC_LCBR, KC_COLN
 #define _________________LOWER_R3__________________       KC_RCBR, KC_HOME, KC_PGDN, KC_PGUP, KC_END
 
 #define _________________ACTION_L1_________________       ________________SYMBOL_LEFT________________
