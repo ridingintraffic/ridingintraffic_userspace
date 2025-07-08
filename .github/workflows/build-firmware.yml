@@ -17,6 +17,7 @@ jobs:
         - preonic.json
         - planck-v6.json
         - sweet16.json
+        - lily58_minecraft.json
 
 # End of json file list
 

@@ -1,0 +1,15 @@
+{
+  "author": "",
+  "documentation": "Wrapper based keymap",
+  "keyboard": "lily58/rev1",
+  "keymap": "ridingintraffic",
+  "layers": [
+      [ "BASE_MINECRAFT" ],
+      [ "RAISE" ],
+      [ "LOWER" ]
+
+  ],
+  "layout": "LAYOUT_wrapper",
+  "notes": "",
+  "version": 1
+}
