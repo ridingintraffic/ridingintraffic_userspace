@@ -6,7 +6,7 @@
   "layers": [
       [ "BASE" ],
       [ "RAISE" ],
-      [ "LOWER" ]
+      [ "LOWER_MINECRAFT" ]
 
   ],
   "layout": "LAYOUT_wrapper",

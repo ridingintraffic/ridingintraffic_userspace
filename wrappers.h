@@ -37,6 +37,14 @@
 #define _________________LOWER_L2__________________       RGB_TOG, RGB_RMOD, RGB_MOD, RGB_M_P, RGB_SAI
 #define _________________LOWER_L3__________________       KC_LCBR, RGB_SAD, KC_CPYW, KC_CPYP,   RGB_SAD
 
+
+
+#define _________________LOWER_2_L1__________________       ________________NUMBER_LEFT________________
+#define _________________LOWER_2_L2__________________       _______, _______, _______, _______, _______
+#define _________________LOWER_2_L3__________________       KC_LCBR, _______, KC_CPYW, KC_CPYP,   _______
+
+
+
 #define _________________LOWER_R1__________________       ________________NUMBER_RIGHT_______________
 #define _________________LOWER_R2__________________       _______, KC_UNDS, KC_PLUS, KC_LCBR, KC_QUOT
 #define _________________LOWER_R3__________________       KC_RCBR, KC_HOME, KC_PGDN, KC_PGUP, KC_END

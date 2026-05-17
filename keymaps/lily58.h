@@ -21,6 +21,14 @@ KC_TAB,   _________________LOWER_L2__________________,                  ________
 KC_LSFT,  _________________LOWER_L3__________________, KC_LBRC,  KC_RBRC,   _________________LOWER_R3__________________,  KC_BSLS, \
                         KC_SPC,      __THUMBS_3L_LOWER__,                __THUMBS_3R_LOWER__, KC_SPC
 
+#define LOWER_MINECRAFT \
+KC_TILD,  _________________LOWER_2_L1__________________,                  _________________LOWER_R1__________________, KC_MINS, \
+KC_TAB,   _________________LOWER_2_L1__________________,                  _________________LOWER_R1__________________, KC_MINS, \
+KC_TAB,   _________________LOWER_2_L2__________________,                  _________________LOWER_R2__________________, KC_QUOT, \
+KC_LSFT,  _________________LOWER_2_L3__________________, KC_LBRC,  KC_RBRC,   _________________LOWER_R3__________________,  KC_BSLS, \
+                        KC_SPC,      __THUMBS_3L_LOWER__,                __THUMBS_3R_LOWER__, KC_SPC
+
+
 #define BASE_MINECRAFT \
 QK_GESC,   ________________NUMBER_LEFT________________,                  ________________NUMBER_RIGHT_______________, KC_MINS, \
 KC_TAB,    _________________QWERTY_L1_________________,                  _________________QWERTY_R1_________________, KC_EQL, \
